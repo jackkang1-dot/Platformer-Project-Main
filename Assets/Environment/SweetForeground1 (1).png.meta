@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: ef7082ee0f190b140b16bc549e31d585
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2530949518555206337
+    second: SweetForeground1 (1)_0
+  - first:
+      213: 4628624856886667125
+    second: SweetForeground1 (1)_1
+  - first:
+      213: 921746859127808693
+    second: SweetForeground1 (1)_2
+  - first:
+      213: 4010348316116876245
+    second: SweetForeground1 (1)_3
+  - first:
+      213: 3259972711212906682
+    second: SweetForeground1 (1)_4
+  - first:
+      213: 8844454300206705211
+    second: SweetForeground1 (1)_5
+  - first:
+      213: 1440798943356961872
+    second: SweetForeground1 (1)_6
+  - first:
+      213: 8345335905868583527
+    second: SweetForeground1 (1)_7
+  - first:
+      213: 2989228907305967691
+    second: SweetForeground1 (1)_8
+  - first:
+      213: -5928261246069524178
+    second: SweetForeground1 (1)_9
+  - first:
+      213: 7249178368818109367
+    second: SweetForeground1 (1)_10
+  - first:
+      213: -9003686514276871347
+    second: SweetForeground1 (1)_11
+  - first:
+      213: -1808621210896091513
+    second: SweetForeground1 (1)_12
+  - first:
+      213: -4108749308696031910
+    second: SweetForeground1 (1)_13
+  - first:
+      213: 6035623273273264211
+    second: SweetForeground1 (1)_14
+  - first:
+      213: 528728650115994242
+    second: SweetForeground1 (1)_15
+  - first:
+      213: -2581723734160088238
+    second: SweetForeground1 (1)_16
+  - first:
+      213: -7207993332649328909
+    second: SweetForeground1 (1)_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2dde57d2dbf1320800000000000000
+      internalID: 2530949518555206337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577e549a8cd2c3040800000000000000
+      internalID: 4628624856886667125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2252f72e3bacc00800000000000000
+      internalID: 921746859127808693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db7bb7bb8e97a730800000000000000
+      internalID: 4010348316116876245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8ff45a8efbd3d20800000000000000
+      internalID: 3259972711212906682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a2ffb7350ddba70800000000000000
+      internalID: 8844454300206705211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054cc8b510fbef310800000000000000
+      internalID: 1440798943356961872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7621c987ac690d370800000000000000
+      internalID: 8345335905868583527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b402d448adfdb7920800000000000000
+      internalID: 2989228907305967691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29bf445ec59abda0800000000000000
+      internalID: -5928261246069524178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb59d291514a9460800000000000000
+      internalID: 7249178368818109367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d435d8f91da7c0380800000000000000
+      internalID: -9003686514276871347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7863d47579c76e6e0800000000000000
+      internalID: -1808621210896091513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d8a08d54acaf6c0800000000000000
+      internalID: -4108749308696031910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35888819367d2c350800000000000000
+      internalID: 6035623273273264211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2825cbce7eb665700800000000000000
+      internalID: 528728650115994242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253613d31ffdb2cd0800000000000000
+      internalID: -2581723734160088238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SweetForeground1 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe7d08e04018fb90800000000000000
+      internalID: -7207993332649328909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d6ac454004b734b428ab562ec8735c24
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SweetForeground1 (1)_0: 2530949518555206337
+      SweetForeground1 (1)_1: 4628624856886667125
+      SweetForeground1 (1)_10: 7249178368818109367
+      SweetForeground1 (1)_11: -9003686514276871347
+      SweetForeground1 (1)_12: -1808621210896091513
+      SweetForeground1 (1)_13: -4108749308696031910
+      SweetForeground1 (1)_14: 6035623273273264211
+      SweetForeground1 (1)_15: 528728650115994242
+      SweetForeground1 (1)_16: -2581723734160088238
+      SweetForeground1 (1)_17: -7207993332649328909
+      SweetForeground1 (1)_2: 921746859127808693
+      SweetForeground1 (1)_3: 4010348316116876245
+      SweetForeground1 (1)_4: 3259972711212906682
+      SweetForeground1 (1)_5: 8844454300206705211
+      SweetForeground1 (1)_6: 1440798943356961872
+      SweetForeground1 (1)_7: 8345335905868583527
+      SweetForeground1 (1)_8: 2989228907305967691
+      SweetForeground1 (1)_9: -5928261246069524178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
