@@ -3,7 +3,8 @@ using UnityEngine;
 /// <summary>
 /// Classic "Goomba-style" patrol enemy for 2D platformers.
 /// Walks back and forth, turns around at walls/ledges, and can be
-/// defeated by stomping on it from above. Damages the player on side contact.
+/// defeated by stomping on it from above or by the player's attack.
+/// Damages the player on side contact.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -132,8 +133,14 @@ public class GoombaEnemy : MonoBehaviour
     void DamagePlayer(GameObject player)
     {
         Debug.Log($"{gameObject.name} hit the player for {damageToPlayer} damage!");
-        // Example, if you have a PlayerHealth script:
-        // player.GetComponent<PlayerHealth>()?.TakeDamage(damageToPlayer);
+        player.GetComponent<PlayerHealth>()?.TakeDamage(damageToPlayer);
+    }
+
+    // Called by PlayerAttack (or anything else that can hurt this enemy).
+    public void TakeDamage(int amount)
+    {
+        if (isDead) return;
+        Die(); // any hit defeats it
     }
 
     void Die()
@@ -147,7 +154,7 @@ public class GoombaEnemy : MonoBehaviour
         // Simple squash effect before removal
         transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 0.3f, transform.localScale.z);
 
-        Debug.Log($"{gameObject.name} was stomped!");
+        Debug.Log($"{gameObject.name} was defeated!");
         Destroy(gameObject, 0.3f);
     }
 
