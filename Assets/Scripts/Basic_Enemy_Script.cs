@@ -2,8 +2,8 @@ using UnityEngine;
 
 /// <summary>
 /// Classic "Goomba-style" patrol enemy for 2D platformers.
-/// Walks back and forth, turns around at walls/ledges, and can be
-/// defeated by stomping on it from above or by the player's attack.
+/// Walks back and forth within a set patrol range, turns around at walls/ledges,
+/// and can be defeated by stomping on it from above or by the player's attack.
 /// Damages the player on side contact.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
@@ -14,12 +14,16 @@ public class GoombaEnemy : MonoBehaviour
     public float moveSpeed = 2f;
     public bool startMovingRight = false;
 
+    [Header("Patrol Range")]
+    [Tooltip("How far (in world units) the enemy walks from its starting spot in each direction before turning around. Set to 0 for no limit.")]
+    public float patrolRange = 3f;
+
     [Header("Ground & Wall Detection")]
     [Tooltip("Which layers count as 'ground' for wall/ledge checks.")]
     public LayerMask groundLayer;
-    [Tooltip("Empty child object at the enemy's feet, offset slightly toward its facing direction.")]
+    [Tooltip("Empty child object at the enemy's feet, offset slightly to one side (its side flips automatically).")]
     public Transform groundCheck;
-    [Tooltip("Empty child object at the enemy's front, roughly chest height.")]
+    [Tooltip("Empty child object at the enemy's front, roughly chest height, offset to one side (its side flips automatically).")]
     public Transform wallCheck;
     public float groundCheckDistance = 0.5f;
     public float wallCheckDistance = 0.2f;
@@ -36,6 +40,7 @@ public class GoombaEnemy : MonoBehaviour
     private SpriteRenderer sr;
     private bool movingRight;
     private bool isDead = false;
+    private float startX;
 
     void Awake()
     {
@@ -45,6 +50,7 @@ public class GoombaEnemy : MonoBehaviour
 
     void Start()
     {
+        startX = transform.position.x;
         movingRight = startMovingRight;
         UpdateFacing();
     }
@@ -63,6 +69,15 @@ public class GoombaEnemy : MonoBehaviour
     {
         bool wallAhead = false;
         bool groundAhead = true; // assume ground exists unless a check says otherwise
+        bool rangeLimitReached = false;
+
+        // Patrol range: turn around once we've walked far enough from the starting spot
+        if (patrolRange > 0f)
+        {
+            float distanceFromStart = transform.position.x - startX;
+            rangeLimitReached = movingRight ? distanceFromStart >= patrolRange
+                                            : distanceFromStart <= -patrolRange;
+        }
 
         if (wallCheck != null)
         {
@@ -75,7 +90,7 @@ public class GoombaEnemy : MonoBehaviour
             groundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, groundLayer);
         }
 
-        if (wallAhead || !groundAhead)
+        if (wallAhead || !groundAhead || rangeLimitReached)
         {
             Flip();
         }
@@ -93,6 +108,20 @@ public class GoombaEnemy : MonoBehaviour
         {
             sr.flipX = !movingRight; // assumes the sprite's default artwork faces right
         }
+
+        // Keep the check objects on the side the enemy is walking toward
+        float sign = movingRight ? 1f : -1f;
+        MirrorCheckX(groundCheck, sign);
+        MirrorCheckX(wallCheck, sign);
+    }
+
+    void MirrorCheckX(Transform check, float sign)
+    {
+        if (check == null) return;
+
+        Vector3 p = check.localPosition;
+        p.x = Mathf.Abs(p.x) * sign;
+        check.localPosition = p;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -158,9 +187,11 @@ public class GoombaEnemy : MonoBehaviour
         Destroy(gameObject, 0.3f);
     }
 
-    // Draws the ground/wall check rays in the Scene view for easy tuning
+    // Draws the check rays and the patrol range in the Scene view for easy tuning
     void OnDrawGizmosSelected()
     {
+        bool facingRight = Application.isPlaying ? movingRight : startMovingRight;
+
         if (groundCheck != null)
         {
             Gizmos.color = Color.green;
@@ -170,8 +201,20 @@ public class GoombaEnemy : MonoBehaviour
         if (wallCheck != null)
         {
             Gizmos.color = Color.red;
-            Vector3 dir = movingRight ? Vector3.right : Vector3.left;
+            Vector3 dir = facingRight ? Vector3.right : Vector3.left;
             Gizmos.DrawLine(wallCheck.position, wallCheck.position + dir * wallCheckDistance);
+        }
+
+        if (patrolRange > 0f)
+        {
+            float centerX = Application.isPlaying ? startX : transform.position.x;
+            Vector3 leftEnd = new Vector3(centerX - patrolRange, transform.position.y, transform.position.z);
+            Vector3 rightEnd = new Vector3(centerX + patrolRange, transform.position.y, transform.position.z);
+
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawLine(leftEnd, rightEnd);
+            Gizmos.DrawWireSphere(leftEnd, 0.15f);
+            Gizmos.DrawWireSphere(rightEnd, 0.15f);
         }
     }
 }

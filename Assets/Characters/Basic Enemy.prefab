@@ -149,7 +149,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19022ca595161b54ea750bd44b2f9808, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -218,8 +218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4510e70e49391468bc0c839e5a9235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoombaEnemy
-  moveSpeed: 2
+  moveSpeed: 1
   startMovingRight: 0
+  patrolRange: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -229,4 +230,4 @@ MonoBehaviour:
   wallCheckDistance: 0.2
   playerTag: Player
   stompBounceForce: 8
-  damageToPlayer: 1
+  damageToPlayer: 5
