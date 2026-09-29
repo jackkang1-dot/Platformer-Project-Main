@@ -156,7 +156,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &641956623313282251
 CapsuleCollider2D:
@@ -168,7 +168,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19022ca595161b54ea750bd44b2f9808, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -192,8 +192,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.9, y: 1.8}
+  m_Offset: {x: -0.002653122, y: -0.017317772}
+  m_Size: {x: 0.28640366, y: 0.9080486}
   m_Direction: 0
 --- !u!114 &1406832553333370687
 MonoBehaviour:
@@ -207,10 +207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b16b78c477aa47a95344598cd3b5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  runSpeed: 5
+  runSpeed: 4
   runAcceleration: 30
   runDeceleration: 40
-  jumpSpeed: 7
+  jumpSpeed: 8
   jumpCutMultiplier: 0.5
   coyoteTime: 0.1
   jumpBufferTime: 0.1
@@ -229,7 +229,7 @@ Animator:
   m_GameObject: {fileID: 7101892323675194848}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90cfc0afd204e684eb09344965ff88c8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -251,7 +251,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19022ca595161b54ea750bd44b2f9808, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -275,7 +275,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.000000059604645, y: -0.7253712}
+  m_Offset: {x: 0.00045204163, y: -0.23472404}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -285,7 +285,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9077617, y: 0.54925764}
+  m_Size: {x: 0.3499565, y: 0.4728012}
   m_EdgeRadius: 0
 --- !u!114 &5697599972945406534
 MonoBehaviour:
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
   attackDamage: 1
-  attackRange: 3
+  attackRange: 1
   attackCooldown: 0.4
   attackPoint: {fileID: 2286680972524109619}
   enemyLayers:
