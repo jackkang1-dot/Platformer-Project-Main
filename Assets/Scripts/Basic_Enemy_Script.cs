@@ -43,9 +43,16 @@ public class GoombaEnemy : MonoBehaviour
     [Header("Damage")]
     public int damageToPlayer = 1;
 
+    [Header("Death")]
+    [Tooltip("Name of the Trigger parameter in the enemy's Animator that plays the death animation (case-sensitive).")]
+    public string deathTrigger = "die";
+    [Tooltip("Seconds to wait before removing the enemy. Match this to the length of the death animation.")]
+    public float deathDuration = 0.5f;
+
     private Rigidbody2D rb;
     private Collider2D bodyCollider;
     private SpriteRenderer sr;
+    private Animator anim;
     private bool movingRight;
     private bool isDead = false;
     private float startX;
@@ -56,6 +63,7 @@ public class GoombaEnemy : MonoBehaviour
         bodyCollider = GetComponent<Collider2D>();
         // Searches this object and its children, in case the art lives on a child object
         sr = GetComponentInChildren<SpriteRenderer>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     void Start()
@@ -195,16 +203,24 @@ public class GoombaEnemy : MonoBehaviour
     void Die()
     {
         isDead = true;
+
+        // Freeze the body in place: no gravity, no collisions, so it can't hurt the
+        // player or fall through the floor while the death animation plays
         rb.linearVelocity = Vector2.zero;
+        rb.simulated = false;
 
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null) col.enabled = false;
-
-        // Simple squash effect before removal
-        transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 0.3f, transform.localScale.z);
+        if (anim != null && anim.runtimeAnimatorController != null)
+        {
+            anim.SetTrigger(deathTrigger);
+        }
+        else
+        {
+            // No Animator set up: fall back to a simple squash effect
+            transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 0.3f, transform.localScale.z);
+        }
 
         Debug.Log($"{gameObject.name} was defeated!");
-        Destroy(gameObject, 0.3f);
+        Destroy(gameObject, deathDuration);
     }
 
     // Draws the check rays and the patrol range in the Scene view for easy tuning
