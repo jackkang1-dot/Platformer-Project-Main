@@ -14,11 +14,15 @@ public class GoombaEnemy : MonoBehaviour
     public float moveSpeed = 2f;
     public bool startMovingRight = false;
 
+    [Header("Art")]
+    [Tooltip("Tick this if the enemy's artwork faces RIGHT in the image file. Untick it if the artwork faces LEFT.")]
+    public bool artFacesRight = true;
+
     [Header("Patrol Range")]
     [Tooltip("How far (in world units) the enemy walks from its starting spot in each direction before turning around. Set to 0 for no limit.")]
     public float patrolRange = 3f;
 
-    [Header("Ground & Wall Detection")]
+    [Header("Ground & Wall Detection (optional)")]
     [Tooltip("Which layers count as 'ground' for wall/ledge checks.")]
     public LayerMask groundLayer;
     [Tooltip("Empty child object at the enemy's feet, offset slightly to one side (its side flips automatically).")]
@@ -32,11 +36,15 @@ public class GoombaEnemy : MonoBehaviour
     public string playerTag = "Player";
     [Tooltip("How much upward bounce the player gets after stomping this enemy.")]
     public float stompBounceForce = 8f;
+    [Tooltip("How high the player's feet must be to count as a stomp, as a fraction of this enemy's height (0 = its bottom, 1 = its top). Lower = more forgiving.")]
+    [Range(0f, 1f)]
+    public float stompZone = 0.5f;
 
     [Header("Damage")]
     public int damageToPlayer = 1;
 
     private Rigidbody2D rb;
+    private Collider2D bodyCollider;
     private SpriteRenderer sr;
     private bool movingRight;
     private bool isDead = false;
@@ -45,7 +53,9 @@ public class GoombaEnemy : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
+        bodyCollider = GetComponent<Collider2D>();
+        // Searches this object and its children, in case the art lives on a child object
+        sr = GetComponentInChildren<SpriteRenderer>();
     }
 
     void Start()
@@ -106,7 +116,8 @@ public class GoombaEnemy : MonoBehaviour
     {
         if (sr != null)
         {
-            sr.flipX = !movingRight; // assumes the sprite's default artwork faces right
+            // Flip the art only when it's pointing the opposite way from where we're walking
+            sr.flipX = artFacesRight ? !movingRight : movingRight;
         }
 
         // Keep the check objects on the side the enemy is walking toward
@@ -129,21 +140,10 @@ public class GoombaEnemy : MonoBehaviour
         if (isDead) return;
         if (!collision.gameObject.CompareTag(playerTag)) return;
 
-        bool stomped = false;
+        Rigidbody2D playerRb = collision.rigidbody;
 
-        // A contact normal pointing mostly downward means the player landed on top of us
-        foreach (ContactPoint2D contact in collision.contacts)
+        if (IsStomp(collision, playerRb))
         {
-            if (contact.normal.y < -0.5f)
-            {
-                stomped = true;
-                break;
-            }
-        }
-
-        if (stomped)
-        {
-            Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
                 Vector2 v = playerRb.linearVelocity;
@@ -157,6 +157,26 @@ public class GoombaEnemy : MonoBehaviour
         {
             DamagePlayer(collision.gameObject);
         }
+    }
+
+    bool IsStomp(Collision2D collision, Rigidbody2D playerRb)
+    {
+        // 1) A contact pointing mostly straight down means the player landed on top of us
+        foreach (ContactPoint2D contact in collision.contacts)
+        {
+            if (contact.normal.y < -0.5f) return true;
+        }
+
+        // 2) Forgiving check for landings on our edge (a rounded capsule touches at an angle).
+        //    Counts as a stomp if the player isn't rising and their feet are above the stomp zone.
+        bool playerRising = playerRb != null && playerRb.linearVelocity.y > 0.5f;
+        if (playerRising || bodyCollider == null) return false;
+
+        Bounds enemy = bodyCollider.bounds;
+        float stompLine = enemy.min.y + enemy.size.y * stompZone;
+        float playerFeet = collision.collider.bounds.min.y;
+
+        return playerFeet >= stompLine;
     }
 
     void DamagePlayer(GameObject player)

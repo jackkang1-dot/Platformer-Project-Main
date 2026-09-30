@@ -130,8 +130,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.9, y: 1.8}
+  m_Offset: {x: -0.09516716, y: 0.014289081}
+  m_Size: {x: 0.6228733, y: 0.6228733}
   m_Direction: 0
 --- !u!50 &6870050422322197509
 Rigidbody2D:
@@ -194,7 +194,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0028824806, y: -0.72061276}
+  m_Offset: {x: -0.0028824806, y: -0.1982913}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -204,7 +204,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9019966, y: 0.55877453}
+  m_Size: {x: 0.9019966, y: 0.19750226}
   m_EdgeRadius: 0
 --- !u!114 &2811576633182772148
 MonoBehaviour:
@@ -220,6 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GoombaEnemy
   moveSpeed: 1
   startMovingRight: 0
+  artFacesRight: 0
   patrolRange: 5
   groundLayer:
     serializedVersion: 2
