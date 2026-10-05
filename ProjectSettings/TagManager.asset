@@ -14,7 +14,7 @@ TagManager:
   - Ground
   - Player
   - Background
-  - 
+  - BG Assets
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 368094199
+    locked: 0
+  - name: BG Assets
+    uniqueID: 2945318797
     locked: 0
   - name: Foreground
     uniqueID: 1662318661
