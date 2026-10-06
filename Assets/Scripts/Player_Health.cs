@@ -83,6 +83,16 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    // Instant death from hazards like water, spikes or pits. Ignores invincibility.
+    public void Kill()
+    {
+        if (isDead) return;
+
+        currentHealth = 0;
+        UpdateHealthBar();
+        Die();
+    }
+
     // Optional: call this from health pickups
     public void Heal(int amount)
     {
