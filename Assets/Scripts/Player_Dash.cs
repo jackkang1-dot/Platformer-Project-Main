@@ -1,15 +1,21 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Quick horizontal dash with a cooldown. Press the dash key to burst in the
 /// direction you're holding (or facing). While dashing, this script briefly
 /// takes over from the movement script so the two don't fight over speed.
 /// Plays the "dash" trigger on the player's Animator.
+/// The dash only works from the level set in "Unlocked From Scene Index" onward.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerDash : MonoBehaviour
 {
+    [Header("Unlock")]
+    [Tooltip("The first level where the player can dash, using its number in File > Build Profiles > Scene List (the first scene is 0). Every level after it has the dash too. Set to 0 to allow dashing in every level.")]
+    [SerializeField] private int unlockedFromSceneIndex = 1;
+
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 12f;
     [Tooltip("How long the dash lasts, in seconds.")]
@@ -37,6 +43,7 @@ public class PlayerDash : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private Player movement;
+    private bool unlocked;
     private bool isDashing;
     private float dashEndTime;
     private float nextDashTime;
@@ -50,6 +57,20 @@ public class PlayerDash : MonoBehaviour
         movement = GetComponent<Player>();
 
         if (feetCollider == null) feetCollider = GetComponent<BoxCollider2D>();
+    }
+
+    void Start()
+    {
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (sceneIndex < 0)
+        {
+            Debug.LogWarning("PlayerDash: this level isn't in File > Build Profiles > Scene List, so it can't tell which level this is. Add the scene to the list.");
+        }
+        else
+        {
+            unlocked = sceneIndex >= unlockedFromSceneIndex;
+        }
     }
 
     void OnEnable()
@@ -74,6 +95,8 @@ public class PlayerDash : MonoBehaviour
 
     void Update()
     {
+        if (!unlocked) return;
+
         if (isDashing)
         {
             if (Time.time >= dashEndTime) EndDash();
