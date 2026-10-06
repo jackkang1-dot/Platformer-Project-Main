@@ -50,6 +50,9 @@ TagManager:
   - name: Foreground
     uniqueID: 1662318661
     locked: 0
+  - name: Pus
+    uniqueID: 246765621
+    locked: 0
   - name: Player
     uniqueID: 3404501711
     locked: 0
