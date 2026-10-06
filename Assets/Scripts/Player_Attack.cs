@@ -23,11 +23,22 @@ public class PlayerAttack : MonoBehaviour
     [Tooltip("Defaults to the J key. Change the binding here in the Inspector if you like.")]
     [SerializeField] private InputAction attackAction = new InputAction("Attack", InputActionType.Button, "<Keyboard>/j");
 
+    [Header("Animation")]
+    [Tooltip("Name of the Trigger parameter in the player's Animator that plays the attack animation (case-sensitive).")]
+    [SerializeField] private string attackTrigger = "attack";
+
     [Header("Debugging")]
     [Tooltip("Prints attack messages to the Console. Turn off when everything works.")]
     [SerializeField] private bool debugLogs = true;
 
     private float nextAttackTime;
+    private Animator anim;
+
+    void Awake()
+    {
+        // Searches this object and its children, in case the Animator sits on a child object
+        anim = GetComponentInChildren<Animator>();
+    }
 
     void OnEnable()
     {
@@ -59,7 +70,15 @@ public class PlayerAttack : MonoBehaviour
         }
 
         nextAttackTime = Time.time + attackCooldown;
+        PlayAttackAnimation();
         Attack();
+    }
+
+    void PlayAttackAnimation()
+    {
+        if (anim == null || anim.runtimeAnimatorController == null || string.IsNullOrEmpty(attackTrigger)) return;
+
+        anim.SetTrigger(attackTrigger);
     }
 
     void Attack()

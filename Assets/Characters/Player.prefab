@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 2681123453476412893}
   - component: {fileID: 5697599972945406534}
   - component: {fileID: 8397321577692802242}
+  - component: {fileID: 4170005427704764652}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -117,7 +118,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1662318661
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 938218149758849858, guid: 26e57a1881d0b214cbed87c30d52e980, type: 3}
@@ -210,7 +211,7 @@ MonoBehaviour:
   runSpeed: 4
   runAcceleration: 30
   runDeceleration: 40
-  jumpSpeed: 8
+  jumpSpeed: 7
   jumpCutMultiplier: 0.5
   coyoteTime: 0.1
   jumpBufferTime: 0.1
@@ -341,4 +342,45 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
+  attackTrigger: attack
   debugLogs: 1
+--- !u!114 &4170005427704764652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101892323675194848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ec43991723f5842b238d325e1a6c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  dashSpeed: 12
+  dashDuration: 0.2
+  dashCooldown: 0.6
+  allowAirDash: 1
+  ignoreGravityWhileDashing: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  feetCollider: {fileID: 0}
+  dashAction:
+    m_Name: Dash
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 9e22d37a-b265-46d4-ba72-358a2e135d63
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 0f5fe1a4-bab0-4e4d-b94c-ec83cdf5dfee
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Dash
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  dashTrigger: dash
