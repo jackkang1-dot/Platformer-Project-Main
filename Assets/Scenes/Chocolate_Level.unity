@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 818495158}
   - component: {fileID: 818495157}
   m_Layer: 6
-  m_Name: 'Background '
+  m_Name: Deadly Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
