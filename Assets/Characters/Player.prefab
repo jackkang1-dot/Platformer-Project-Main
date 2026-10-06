@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 5697599972945406534}
   - component: {fileID: 8397321577692802242}
   - component: {fileID: 4170005427704764652}
+  - component: {fileID: 5903151351700863380}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -318,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
   attackDamage: 1
-  attackRange: 1
+  attackRange: 0.5
   attackCooldown: 0.4
   attackPoint: {fileID: 2286680972524109619}
   enemyLayers:
@@ -384,3 +385,20 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   dashTrigger: dash
+--- !u!114 &5903151351700863380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101892323675194848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc615f2c57d95e4abf74da61dfdd18b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDoubleJump
+  unlocked: 0
+  doubleJumpSpeed: 7
+  extraJumps: 1
+  coyoteTime: 0.1
+  doubleJumpTrigger: 

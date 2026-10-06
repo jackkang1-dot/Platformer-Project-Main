@@ -72744,7 +72744,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1662318661
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -132579,6 +132579,10 @@ PrefabInstance:
     - target: {fileID: 4960368794881890065, guid: 8f06f7f9ed3fe5349b6be3a25ddfceec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5903151351700863380, guid: 8f06f7f9ed3fe5349b6be3a25ddfceec, type: 3}
+      propertyPath: unlocked
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7101892323675194848, guid: 8f06f7f9ed3fe5349b6be3a25ddfceec, type: 3}
       propertyPath: m_Name
