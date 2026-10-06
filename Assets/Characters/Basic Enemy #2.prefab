@@ -122,7 +122,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &-7233563624436868485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   moveSpeed: 2
   startMovingRight: 0
   artFacesRight: 1
-  patrolRange: 3
+  patrolRange: 2
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   playerTag: Player
   stompBounceForce: 8
   stompZone: 0.5
-  damageToPlayer: 1
+  damageToPlayer: 5
   deathTrigger: die
   deathDuration: 0.5
 --- !u!95 &-838084340058391532
