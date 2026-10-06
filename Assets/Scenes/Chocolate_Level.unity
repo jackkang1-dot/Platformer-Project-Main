@@ -4731,6 +4731,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KillZone
   playerTag: Player
   killEnemies: 0
+  sinkSlowly: 1
+  sinkDrag: 6
+  sinkGravity: 0.5
 --- !u!66 &818495157
 CompositeCollider2D:
   m_ObjectHideFlags: 0
