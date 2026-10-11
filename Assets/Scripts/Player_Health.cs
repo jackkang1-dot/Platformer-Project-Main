@@ -6,7 +6,7 @@ using UnityEngine.UI;
 /// Tracks player HP, updates an optional UI Slider health bar, handles taking
 /// damage with a brief invincibility window (sprite flicker), and death.
 /// On death the player loses control and the current level restarts.
-/// Enemies call TakeDamage() on this component.
+/// Enemies call TakeDamage() on this component. Optional hurt and death sounds.
 /// </summary>
 public class PlayerHealth : MonoBehaviour
 {
@@ -28,15 +28,29 @@ public class PlayerHealth : MonoBehaviour
     [Header("Death")]
     [Tooltip("Reload the current level after the player dies.")]
     public bool restartLevelOnDeath = true;
-    [Tooltip("Seconds to wait after dying before the level restarts.")]
+    [Tooltip("Seconds to wait after dying before the level restarts. Keep it at least as long as the Death Sound, or the sound gets cut off.")]
     public float restartDelay = 1.5f;
 
+    [Header("Sounds (optional)")]
+    [Tooltip("Plays when the player takes damage but survives. Leave empty for no sound.")]
+    public AudioClip hurtSound;
+    [Tooltip("Plays when the player dies (enemies, water, pus, pits). Leave empty for no sound.")]
+    public AudioClip deathSound;
+    [Range(0f, 1f)]
+    public float soundVolume = 1f;
+
     private SpriteRenderer sr;
+    private AudioSource sfx;
 
     void Awake()
     {
         // Searches this object and its children, in case the sprite lives on a child object
         sr = GetComponentInChildren<SpriteRenderer>();
+
+        // Its own speaker for hurt/death sounds
+        sfx = gameObject.AddComponent<AudioSource>();
+        sfx.playOnAwake = false;
+        sfx.spatialBlend = 0f; // 2D: same volume wherever the camera is
     }
 
     void Start()
@@ -78,6 +92,7 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
+            PlaySound(hurtSound);
             isInvincible = true;
             invincibilityTimer = invincibilityDuration;
         }
@@ -110,12 +125,19 @@ public class PlayerHealth : MonoBehaviour
         healthBar.value = currentHealth;
     }
 
+    void PlaySound(AudioClip clip)
+    {
+        if (clip != null && sfx != null) sfx.PlayOneShot(clip, soundVolume);
+    }
+
     void Die()
     {
         isDead = true;
         Debug.Log("Player has died.");
 
         if (sr != null) sr.enabled = true;
+
+        PlaySound(deathSound);
 
         // Take away control: switch off every other script on the player (movement, attack, etc.)
         foreach (MonoBehaviour script in GetComponents<MonoBehaviour>())

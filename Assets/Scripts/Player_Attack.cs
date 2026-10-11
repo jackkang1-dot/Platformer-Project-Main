@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 /// Simple melee attack: press the attack key to damage every enemy inside a
 /// small circle in front of the player. Works with the new Input System.
 /// Includes Console debug messages so you can see exactly where an attack fails.
+/// Optional attack sound.
 /// </summary>
 public class PlayerAttack : MonoBehaviour
 {
@@ -27,17 +28,29 @@ public class PlayerAttack : MonoBehaviour
     [Tooltip("Name of the Trigger parameter in the player's Animator that plays the attack animation (case-sensitive).")]
     [SerializeField] private string attackTrigger = "attack";
 
+    [Header("Sound (optional)")]
+    [Tooltip("Plays every time the player attacks. Leave empty for no sound.")]
+    [SerializeField] private AudioClip attackSound;
+    [Range(0f, 1f)]
+    [SerializeField] private float attackSoundVolume = 1f;
+
     [Header("Debugging")]
     [Tooltip("Prints attack messages to the Console. Turn off when everything works.")]
     [SerializeField] private bool debugLogs = true;
 
     private float nextAttackTime;
     private Animator anim;
+    private AudioSource sfx;
 
     void Awake()
     {
         // Searches this object and its children, in case the Animator sits on a child object
         anim = GetComponentInChildren<Animator>();
+
+        // Its own speaker for the attack sound
+        sfx = gameObject.AddComponent<AudioSource>();
+        sfx.playOnAwake = false;
+        sfx.spatialBlend = 0f; // 2D: same volume wherever the camera is
     }
 
     void OnEnable()
@@ -70,8 +83,14 @@ public class PlayerAttack : MonoBehaviour
         }
 
         nextAttackTime = Time.time + attackCooldown;
+        PlayAttackSound();
         PlayAttackAnimation();
         Attack();
+    }
+
+    void PlayAttackSound()
+    {
+        if (attackSound != null && sfx != null) sfx.PlayOneShot(attackSound, attackSoundVolume);
     }
 
     void PlayAttackAnimation()

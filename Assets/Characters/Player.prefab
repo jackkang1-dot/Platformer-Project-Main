@@ -50,6 +50,8 @@ GameObject:
   - component: {fileID: 8397321577692802242}
   - component: {fileID: 4170005427704764652}
   - component: {fileID: 5903151351700863380}
+  - component: {fileID: 3826394368331263200}
+  - component: {fileID: 1206440699401915293}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -306,6 +308,9 @@ MonoBehaviour:
   invincibilityDuration: 1
   restartLevelOnDeath: 1
   restartDelay: 1.5
+  hurtSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 76f53d110957ad44cadba8e5ec8f29ef, type: 3}
+  soundVolume: 1
 --- !u!114 &8397321577692802242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +349,8 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   attackTrigger: attack
+  attackSound: {fileID: 8300000, guid: 41b1f9ddefd46a1459d3e0a240df85d4, type: 3}
+  attackSoundVolume: 1
   debugLogs: 1
 --- !u!114 &4170005427704764652
 MonoBehaviour:
@@ -363,6 +370,10 @@ MonoBehaviour:
   dashCooldown: 0.6
   allowAirDash: 1
   ignoreGravityWhileDashing: 1
+  dashIsAttack: 1
+  dashDamage: 1
+  dashHitReach: 0.4
+  passThroughHitEnemies: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -386,6 +397,8 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   dashTrigger: dash
+  dashSound: {fileID: 8300000, guid: 0337e95a2bdf05c4180ec3c02ca1b858, type: 3}
+  dashSoundVolume: 1
 --- !u!114 &5903151351700863380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,3 +416,36 @@ MonoBehaviour:
   extraJumps: 1
   coyoteTime: 0.1
   doubleJumpTrigger: 
+--- !u!114 &3826394368331263200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101892323675194848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7aa34ebb19b6404c8d9792638258cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootsteps
+  runSound: {fileID: 8300000, guid: 14b4e63872f671149a45e7f6702bff78, type: 3}
+  isLoopingSound: 1
+  stepInterval: 0.3
+  volume: 0.6
+  pitchVariation: 0.1
+  minRunSpeed: 0.1
+--- !u!114 &1206440699401915293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101892323675194848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7a6af3c5e42c14ebac301970125124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerJumpSound
+  jumpSound: {fileID: 8300000, guid: 8bd7d70708bf91249866e683fe55cd49, type: 3}
+  doubleJumpSound: {fileID: 8300000, guid: 8bd7d70708bf91249866e683fe55cd49, type: 3}
+  volume: 1

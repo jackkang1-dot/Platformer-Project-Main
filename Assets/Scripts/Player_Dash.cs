@@ -53,6 +53,13 @@ public class PlayerDash : MonoBehaviour
     [Tooltip("Name of the Trigger parameter in the player's Animator that plays the dash animation (case-sensitive).")]
     [SerializeField] private string dashTrigger = "dash";
 
+    [Header("Sound (optional)")]
+    [Tooltip("Plays every time the player dashes. Leave empty for no sound.")]
+    [SerializeField] private AudioClip dashSound;
+    [Range(0f, 1f)]
+    [SerializeField] private float dashSoundVolume = 1f;
+
+    private AudioSource sfx;
     private Rigidbody2D rb;
     private Animator anim;
     private Player movement;
@@ -77,6 +84,11 @@ public class PlayerDash : MonoBehaviour
         ownColliders = GetComponentsInChildren<Collider2D>();
 
         if (feetCollider == null) feetCollider = GetComponent<BoxCollider2D>();
+
+        // Its own speaker for the dash sound
+        sfx = gameObject.AddComponent<AudioSource>();
+        sfx.playOnAwake = false;
+        sfx.spatialBlend = 0f; // 2D: same volume wherever the camera is
     }
 
     void Start()
@@ -175,6 +187,8 @@ public class PlayerDash : MonoBehaviour
         {
             anim.SetTrigger(dashTrigger);
         }
+
+        if (dashSound != null && sfx != null) sfx.PlayOneShot(dashSound, dashSoundVolume);
     }
 
     void EndDash()

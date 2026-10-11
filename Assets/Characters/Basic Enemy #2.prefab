@@ -192,12 +192,25 @@ MonoBehaviour:
   wallCheck: {fileID: 0}
   groundCheckDistance: 0.5
   wallCheckDistance: 0.2
+  maxHealth: 1
+  hurtCooldown: 0.2
+  hitFlashColor: {r: 1, g: 0, b: 0, a: 1}
+  healthBar: {fileID: 0}
   playerTag: Player
+  canBeStomped: 1
+  stompDamage: 1
   stompBounceForce: 8
   stompZone: 0.5
   damageToPlayer: 5
   deathTrigger: die
   deathDuration: 0.5
+  activateOnDeath: []
+  moveSound: {fileID: 8300000, guid: f552b08da8ff8f144ae828556bad37d2, type: 3}
+  moveSoundLoops: 1
+  stepInterval: 0.4
+  deathSound: {fileID: 0}
+  soundVolume: 0.7
+  hearingDistance: 10
 --- !u!95 &-838084340058391532
 Animator:
   serializedVersion: 7

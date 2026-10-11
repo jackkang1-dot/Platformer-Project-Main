@@ -1,10 +1,14 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Classic "Goomba-style" patrol enemy for 2D platformers.
 /// Walks back and forth within a set patrol range, turns around at walls/ledges,
 /// and can be defeated by stomping on it from above or by the player's attack.
 /// Damages the player on side contact.
+/// Regular enemies keep Max Health at 1 (any hit defeats them). A boss gets more
+/// health, an optional health bar, and can add the EnemyShooter script to shoot.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -32,8 +36,22 @@ public class GoombaEnemy : MonoBehaviour
     public float groundCheckDistance = 0.5f;
     public float wallCheckDistance = 0.2f;
 
+    [Header("Health")]
+    [Tooltip("Hits needed to defeat this enemy. Leave at 1 for regular enemies. Give a boss more.")]
+    public int maxHealth = 1;
+    [Tooltip("After taking a hit, ignore further hits for this many seconds, so one spear swing or stomp only counts once.")]
+    public float hurtCooldown = 0.2f;
+    [Tooltip("Color the enemy flashes when it takes a hit but survives.")]
+    public Color hitFlashColor = Color.red;
+    [Tooltip("Optional UI Slider to show this enemy's health (for a boss). Leave empty for regular enemies.")]
+    public Slider healthBar;
+
     [Header("Stomp Settings")]
     public string playerTag = "Player";
+    [Tooltip("Untick to make this enemy hurt the player even when landed on from above (e.g. a spiky boss).")]
+    public bool canBeStomped = true;
+    [Tooltip("Damage a stomp deals to this enemy.")]
+    public int stompDamage = 1;
     [Tooltip("How much upward bounce the player gets after stomping this enemy.")]
     public float stompBounceForce = 8f;
     [Tooltip("How high the player's feet must be to count as a stomp, as a fraction of this enemy's height (0 = its bottom, 1 = its top). Lower = more forgiving.")]
@@ -48,14 +66,40 @@ public class GoombaEnemy : MonoBehaviour
     public string deathTrigger = "die";
     [Tooltip("Seconds to wait before removing the enemy. Match this to the length of the death animation.")]
     public float deathDuration = 0.5f;
+    [Tooltip("Optional objects to switch ON when this enemy is defeated, such as a level exit or a 'You Win' message. Untick them in the scene so they start hidden.")]
+    public GameObject[] activateOnDeath;
+
+    [Header("Sounds (optional)")]
+    [Tooltip("Plays while the enemy walks. Can be a looping sound or a single footstep. Leave empty for no sound.")]
+    public AudioClip moveSound;
+    [Tooltip("Tick if Move Sound is one continuous loop. Untick if it's a single footstep, which then repeats every Step Interval.")]
+    public bool moveSoundLoops = true;
+    [Tooltip("Seconds between footsteps (only used when Move Sound Loops is off).")]
+    public float stepInterval = 0.4f;
+    [Tooltip("Plays when the enemy is defeated. Leave empty for no sound.")]
+    public AudioClip deathSound;
+    [Range(0f, 1f)]
+    public float soundVolume = 0.7f;
+    [Tooltip("How far from the camera (in units) this enemy can be heard. Close enemies play at full volume and fade out with distance, so off-screen enemies stay quiet.")]
+    public float hearingDistance = 10f;
+
+    private AudioSource moveSource;
+    private Transform listener;
+    private float nextStepTime;
 
     private Rigidbody2D rb;
     private Collider2D bodyCollider;
     private SpriteRenderer sr;
     private Animator anim;
+    private Color normalColor = Color.white;
     private bool movingRight;
     private bool isDead = false;
     private float startX;
+    private int currentHealth;
+    private float nextHurtTime;
+
+    // Lets other scripts (like EnemyShooter) know when this enemy has been defeated
+    public bool IsDead => isDead;
 
     void Awake()
     {
@@ -64,13 +108,98 @@ public class GoombaEnemy : MonoBehaviour
         // Searches this object and its children, in case the art lives on a child object
         sr = GetComponentInChildren<SpriteRenderer>();
         anim = GetComponentInChildren<Animator>();
+
+        if (sr != null) normalColor = sr.color;
+
+        // This enemy's own speaker for its movement sound
+        moveSource = gameObject.AddComponent<AudioSource>();
+        moveSource.playOnAwake = false;
+        moveSource.spatialBlend = 0f;
     }
 
     void Start()
     {
         startX = transform.position.x;
         movingRight = startMovingRight;
+        currentHealth = Mathf.Max(1, maxHealth);
+        UpdateHealthBar();
         UpdateFacing();
+
+        // The Main Camera carries the "ears" (Audio Listener), so distance is measured from it
+        if (Camera.main != null) listener = Camera.main.transform;
+    }
+
+    void Update()
+    {
+        UpdateMoveSound();
+    }
+
+    // ---------- Sounds ----------
+
+    void UpdateMoveSound()
+    {
+        if (moveSound == null || moveSource == null) return;
+
+        bool walking = !isDead && Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+        float volume = soundVolume * DistanceVolume();
+        moveSource.panStereo = DistancePan();
+
+        if (moveSoundLoops)
+        {
+            if (walking && volume > 0.01f)
+            {
+                moveSource.volume = volume;
+                if (!moveSource.isPlaying)
+                {
+                    moveSource.clip = moveSound;
+                    moveSource.loop = true;
+                    // Start at a random point so a group of enemies doesn't sound perfectly in sync
+                    moveSource.time = Random.Range(0f, moveSound.length);
+                    moveSource.Play();
+                }
+            }
+            else if (moveSource.isPlaying)
+            {
+                moveSource.Stop();
+            }
+        }
+        else if (walking && volume > 0.01f && Time.time >= nextStepTime)
+        {
+            moveSource.pitch = 1f + Random.Range(-0.08f, 0.08f);
+            moveSource.PlayOneShot(moveSound, volume);
+            nextStepTime = Time.time + stepInterval;
+        }
+    }
+
+    // 1 when the enemy is near the camera, fading to 0 at Hearing Distance
+    float DistanceVolume()
+    {
+        if (listener == null || hearingDistance <= 0f) return 1f;
+
+        float distance = Vector2.Distance(listener.position, transform.position);
+        return Mathf.InverseLerp(hearingDistance, hearingDistance * 0.3f, distance);
+    }
+
+    // Slightly louder in the left or right speaker depending on which side of the screen the enemy is on
+    float DistancePan()
+    {
+        if (listener == null || hearingDistance <= 0f) return 0f;
+
+        return Mathf.Clamp((transform.position.x - listener.position.x) / hearingDistance, -1f, 1f) * 0.5f;
+    }
+
+    void PlayDeathSound()
+    {
+        if (deathSound == null) return;
+
+        // Played from a separate temporary object, because this enemy is removed
+        // shortly after dying and would cut the sound off
+        GameObject soundObject = new GameObject(name + " Death Sound");
+        AudioSource source = soundObject.AddComponent<AudioSource>();
+        source.spatialBlend = 0f;
+        source.panStereo = DistancePan();
+        source.PlayOneShot(deathSound, soundVolume * DistanceVolume());
+        Destroy(soundObject, deathSound.length + 0.1f);
     }
 
     void FixedUpdate()
@@ -150,7 +279,7 @@ public class GoombaEnemy : MonoBehaviour
 
         Rigidbody2D playerRb = collision.rigidbody;
 
-        if (IsStomp(collision, playerRb))
+        if (canBeStomped && IsStomp(collision, playerRb))
         {
             if (playerRb != null)
             {
@@ -159,7 +288,7 @@ public class GoombaEnemy : MonoBehaviour
                 playerRb.linearVelocity = v;
             }
 
-            Die();
+            TakeDamage(stompDamage);
         }
         else
         {
@@ -193,11 +322,40 @@ public class GoombaEnemy : MonoBehaviour
         player.GetComponent<PlayerHealth>()?.TakeDamage(damageToPlayer);
     }
 
-    // Called by PlayerAttack (or anything else that can hurt this enemy).
+    // Called by PlayerAttack, stomps, or anything else that can hurt this enemy.
     public void TakeDamage(int amount)
     {
         if (isDead) return;
-        Die(); // any hit defeats it
+        if (Time.time < nextHurtTime) return; // still recovering from the last hit
+
+        currentHealth -= Mathf.Max(1, amount);
+        UpdateHealthBar();
+
+        if (currentHealth <= 0)
+        {
+            Die();
+            return;
+        }
+
+        nextHurtTime = Time.time + hurtCooldown;
+        Debug.Log($"{gameObject.name} took a hit. Health: {currentHealth}/{maxHealth}");
+
+        if (sr != null) StartCoroutine(HitFlash());
+    }
+
+    IEnumerator HitFlash()
+    {
+        sr.color = hitFlashColor;
+        yield return new WaitForSeconds(0.1f);
+        if (sr != null) sr.color = normalColor;
+    }
+
+    void UpdateHealthBar()
+    {
+        if (healthBar == null) return;
+
+        healthBar.maxValue = Mathf.Max(1, maxHealth);
+        healthBar.value = Mathf.Max(0, currentHealth);
     }
 
     void Die()
@@ -209,6 +367,11 @@ public class GoombaEnemy : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
 
+        if (sr != null) sr.color = normalColor;
+
+        if (moveSource != null) moveSource.Stop();
+        PlayDeathSound();
+
         if (anim != null && anim.runtimeAnimatorController != null)
         {
             anim.SetTrigger(deathTrigger);
@@ -217,6 +380,16 @@ public class GoombaEnemy : MonoBehaviour
         {
             // No Animator set up: fall back to a simple squash effect
             transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 0.3f, transform.localScale.z);
+        }
+
+        if (healthBar != null) healthBar.gameObject.SetActive(false);
+
+        if (activateOnDeath != null)
+        {
+            foreach (GameObject obj in activateOnDeath)
+            {
+                if (obj != null) obj.SetActive(true);
+            }
         }
 
         Debug.Log($"{gameObject.name} was defeated!");
