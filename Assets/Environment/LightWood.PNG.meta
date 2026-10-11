@@ -1,46 +1,34 @@
 fileFormatVersion: 2
-guid: 6345d015104de3f40b1eeb2cc59a7413
+guid: ea6137f5354427546822ed74ce523fe2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7235513054026922480
-    second: JohnGoombaSprite1_0
+      213: -4226697597745328669
+    second: LightWood_0
   - first:
-      213: 6918821191268354540
-    second: JohnGoombaSprite1_1
+      213: -1601318165074572848
+    second: LightWood_1
   - first:
-      213: -4455985382645159680
-    second: JohnGoombaSprite1_2
+      213: -5013594942324464183
+    second: LightWood_2
   - first:
-      213: -4212331820566414912
-    second: JohnGoombaSprite1_3
+      213: 4015508226016879947
+    second: LightWood_3
   - first:
-      213: -1765443019049037587
-    second: JohnGoombaSprite1_4
+      213: -1747198404595277980
+    second: LightWood_4
   - first:
-      213: -2554822358266046600
-    second: JohnGoombaSprite1_5
+      213: -8276032885998073933
+    second: LightWood_5
   - first:
-      213: 7605769779035602965
-    second: JohnGoombaSprite1_6
+      213: 2775058390738685224
+    second: LightWood_6
   - first:
-      213: -2402210534841455590
-    second: JohnGoombaSprite1_7
+      213: -8446856834602788515
+    second: LightWood_7
   - first:
-      213: 690736610777914418
-    second: JohnGoombaSprite1_8
-  - first:
-      213: 7507684302738044798
-    second: JohnGoombaSprite1_9
-  - first:
-      213: -399952875451214835
-    second: JohnGoombaSprite1_10
-  - first:
-      213: -276220379448868186
-    second: JohnGoombaSprite1_11
-  - first:
-      213: 2985588382465602830
-    second: JohnGoombaSprite1_12
+      213: 7069472302248389748
+    second: LightWood_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,11 +124,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JohnGoombaSprite1_0
+      name: LightWood_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 42
+        x: 0
+        y: 83
         width: 32
         height: 32
       alignment: 0
@@ -151,128 +139,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0160607763b469b90800000000000000
-      internalID: -7235513054026922480
+      spriteID: 3ed8469cde0c755c0800000000000000
+      internalID: -4226697597745328669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 42
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce9cef94737940060800000000000000
-      internalID: 6918821191268354540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_2
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 42
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0092a1f37e82922c0800000000000000
-      internalID: -4455985382645159680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_3
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 42
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c9701fe68aca85c0800000000000000
-      internalID: -4212331820566414912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_4
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 42
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de0936a8de2ef77e0800000000000000
-      internalID: -1765443019049037587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_5
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8779357e9927b8cd0800000000000000
-      internalID: -2554822358266046600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_6
+      name: LightWood_1
       rect:
         serializedVersion: 2
         x: 39
-        y: 0
+        y: 83
         width: 32
         height: 32
       alignment: 0
@@ -283,18 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51081d2215f1d8960800000000000000
-      internalID: 7605769779035602965
+      spriteID: 0d9895eec99f6c9e0800000000000000
+      internalID: -1601318165074572848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_7
+      name: LightWood_2
       rect:
         serializedVersion: 2
         x: 78
-        y: 0
+        y: 83
         width: 32
         height: 32
       alignment: 0
@@ -305,18 +183,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1ce21bfe32a9aed0800000000000000
-      internalID: -2402210534841455590
+      spriteID: 9c52e0f86f12c6ab0800000000000000
+      internalID: -5013594942324464183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_8
+      name: LightWood_3
       rect:
         serializedVersion: 2
-        x: 115
-        y: 0
+        x: 116
+        y: 83
         width: 32
         height: 32
       alignment: 0
@@ -327,18 +205,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23c56cea94df59900800000000000000
-      internalID: 690736610777914418
+      spriteID: b45256cd473f9b730800000000000000
+      internalID: 4015508226016879947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_9
+      name: LightWood_4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 0
+        x: 0
+        y: 41
         width: 32
         height: 32
       alignment: 0
@@ -349,18 +227,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e773a7e8817a03860800000000000000
-      internalID: 7507684302738044798
+      spriteID: 46f18fdde44b0c7e0800000000000000
+      internalID: -1747198404595277980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_10
+      name: LightWood_5
       rect:
         serializedVersion: 2
-        x: 191
-        y: 0
+        x: 39
+        y: 41
         width: 32
         height: 32
       alignment: 0
@@ -371,18 +249,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0495d39af4137af0800000000000000
-      internalID: -399952875451214835
+      spriteID: 3b742a040ff952d80800000000000000
+      internalID: -8276032885998073933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_11
+      name: LightWood_6
       rect:
         serializedVersion: 2
-        x: 229
-        y: 0
+        x: 78
+        y: 41
         width: 32
         height: 32
       alignment: 0
@@ -393,17 +271,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a20a33470baa2cf0800000000000000
-      internalID: -276220379448868186
+      spriteID: 82d42fa47ecf28620800000000000000
+      internalID: 2775058390738685224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_12
+      name: LightWood_7
       rect:
         serializedVersion: 2
-        x: 266
+        x: 116
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d599be8567cb6ca80800000000000000
+      internalID: -8446856834602788515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWood_8
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -415,8 +315,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e053566c0d0fe6920800000000000000
-      internalID: 2985588382465602830
+      spriteID: 47c6afc6a9fcb1260800000000000000
+      internalID: 7069472302248389748
       vertices: []
       indices: 
       edges: []
@@ -425,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 557a2b6fa67f8e945a1957bb59880ef4
+    spriteID: 1b661f8011b419b4fb7911d355ceeca5
     internalID: 0
     vertices: []
     indices: 
@@ -435,21 +335,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":32.0,"y":27.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":6.0,"y":15.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":6.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      JohnGoombaSprite1_0: -7235513054026922480
-      JohnGoombaSprite1_1: 6918821191268354540
-      JohnGoombaSprite1_10: -399952875451214835
-      JohnGoombaSprite1_11: -276220379448868186
-      JohnGoombaSprite1_12: 2985588382465602830
-      JohnGoombaSprite1_2: -4455985382645159680
-      JohnGoombaSprite1_3: -4212331820566414912
-      JohnGoombaSprite1_4: -1765443019049037587
-      JohnGoombaSprite1_5: -2554822358266046600
-      JohnGoombaSprite1_6: 7605769779035602965
-      JohnGoombaSprite1_7: -2402210534841455590
-      JohnGoombaSprite1_8: 690736610777914418
-      JohnGoombaSprite1_9: 7507684302738044798
+      LightWood_0: -4226697597745328669
+      LightWood_1: -1601318165074572848
+      LightWood_2: -5013594942324464183
+      LightWood_3: 4015508226016879947
+      LightWood_4: -1747198404595277980
+      LightWood_5: -8276032885998073933
+      LightWood_6: 2775058390738685224
+      LightWood_7: -8446856834602788515
+      LightWood_8: 7069472302248389748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
