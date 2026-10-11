@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 4b8297ecf9da75d46a45e4c4b62b667d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5364898302010738805
+    second: SourBG3_0
+  - first:
+      213: -6714845041048556310
+    second: SourBG3_1
+  - first:
+      213: -3207755459250021315
+    second: SourBG3_2
+  - first:
+      213: -1628164462611044068
+    second: SourBG3_3
+  - first:
+      213: 1130384184571424028
+    second: SourBG3_4
+  - first:
+      213: 5853477651508030908
+    second: SourBG3_5
+  - first:
+      213: 6843478513942102113
+    second: SourBG3_6
+  - first:
+      213: -1580042044682088823
+    second: SourBG3_7
+  - first:
+      213: 3453159012548507717
+    second: SourBG3_8
+  - first:
+      213: 3114661990598795559
+    second: SourBG3_9
+  - first:
+      213: -8785553571598489796
+    second: SourBG3_10
+  - first:
+      213: -87765651766913191
+    second: SourBG3_11
+  - first:
+      213: 4710800767669791169
+    second: SourBG3_12
+  - first:
+      213: 4021258896261002618
+    second: SourBG3_13
+  - first:
+      213: -2992410024931156733
+    second: SourBG3_14
+  - first:
+      213: 7695853827310712606
+    second: SourBG3_15
+  - first:
+      213: 4596248009927680129
+    second: SourBG3_16
+  - first:
+      213: 3368663101287604825
+    second: SourBG3_17
+  - first:
+      213: 4702646418164083999
+    second: SourBG3_18
+  - first:
+      213: 8501722588788846154
+    second: SourBG3_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SourBG3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87bd843b6d0c85b0800000000000000
+      internalID: -5364898302010738805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 147
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aece18e030410d2a0800000000000000
+      internalID: -6714845041048556310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 147
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c151db763cb73d0800000000000000
+      internalID: -3207755459250021315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 147
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1967223c099769e0800000000000000
+      internalID: -1628164462611044068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d69154d6eefaf00800000000000000
+      internalID: 1130384184571424028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbde2d639eabb3150800000000000000
+      internalID: 5853477651508030908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 110
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160898b337be8fe50800000000000000
+      internalID: 6843478513942102113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 126
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eca8cb120921ae0800000000000000
+      internalID: -1580042044682088823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54874e783d51cef20800000000000000
+      internalID: 3453159012548507717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 77
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7216d090490893b20800000000000000
+      internalID: 3114661990598795559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 73
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3725b11391731680800000000000000
+      internalID: -8785553571598489796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 73
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957d3feca9138cef0800000000000000
+      internalID: -87765651766913191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9689cd650206140800000000000000
+      internalID: 4710800767669791169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 36
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75348d19a16ec730800000000000000
+      internalID: 4021258896261002618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 36
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d19a1dfe2d876d0800000000000000
+      internalID: -2992410024931156733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 36
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e177f24184a2dca60800000000000000
+      internalID: 7695853827310712606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180e55b863729cf30800000000000000
+      internalID: 4596248009927680129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 15
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952a6302e35efbe20800000000000000
+      internalID: 3368663101287604825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1deeea6008234140800000000000000
+      internalID: 4702646418164083999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG3_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e6ca386af2cf570800000000000000
+      internalID: 8501722588788846154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SourBG3_0: -5364898302010738805
+      SourBG3_1: -6714845041048556310
+      SourBG3_10: -8785553571598489796
+      SourBG3_11: -87765651766913191
+      SourBG3_12: 4710800767669791169
+      SourBG3_13: 4021258896261002618
+      SourBG3_14: -2992410024931156733
+      SourBG3_15: 7695853827310712606
+      SourBG3_16: 4596248009927680129
+      SourBG3_17: 3368663101287604825
+      SourBG3_18: 4702646418164083999
+      SourBG3_19: 8501722588788846154
+      SourBG3_2: -3207755459250021315
+      SourBG3_3: -1628164462611044068
+      SourBG3_4: 1130384184571424028
+      SourBG3_5: 5853477651508030908
+      SourBG3_6: 6843478513942102113
+      SourBG3_7: -1580042044682088823
+      SourBG3_8: 3453159012548507717
+      SourBG3_9: 3114661990598795559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
