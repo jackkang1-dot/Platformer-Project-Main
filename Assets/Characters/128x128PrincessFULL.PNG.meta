@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: febcb017230414e46a1aaba66e156759
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4194030724942419948
+    second: 128x128PrincessFULL_0
+  - first:
+      213: 1324267600329621803
+    second: 128x128PrincessFULL_1
+  - first:
+      213: -7994329037972446051
+    second: 128x128PrincessFULL_2
+  - first:
+      213: 7517664954926975595
+    second: 128x128PrincessFULL_3
+  - first:
+      213: -8559919864022135191
+    second: 128x128PrincessFULL_4
+  - first:
+      213: 350525235745529928
+    second: 128x128PrincessFULL_5
+  - first:
+      213: -6134586203361518968
+    second: 128x128PrincessFULL_6
+  - first:
+      213: 6250228503490798565
+    second: 128x128PrincessFULL_7
+  - first:
+      213: -6095904019488338274
+    second: 128x128PrincessFULL_8
+  - first:
+      213: 2190368884109199956
+    second: 128x128PrincessFULL_9
+  - first:
+      213: 7173403005504621650
+    second: 128x128PrincessFULL_10
+  - first:
+      213: 946318164194523521
+    second: 128x128PrincessFULL_11
+  - first:
+      213: 7246350288157042802
+    second: 128x128PrincessFULL_12
+  - first:
+      213: 17457421023714259
+    second: 128x128PrincessFULL_13
+  - first:
+      213: 6740802348346496399
+    second: 128x128PrincessFULL_14
+  - first:
+      213: -9169700634214344716
+    second: 128x128PrincessFULL_15
+  - first:
+      213: -1525587824053819394
+    second: 128x128PrincessFULL_16
+  - first:
+      213: 2665994135297846152
+    second: 128x128PrincessFULL_17
+  - first:
+      213: -4704930897359278834
+    second: 128x128PrincessFULL_18
+  - first:
+      213: 1540400357237872400
+    second: 128x128PrincessFULL_19
+  - first:
+      213: 1240682051591160661
+    second: 128x128PrincessFULL_20
+  - first:
+      213: -8351269120138314611
+    second: 128x128PrincessFULL_21
+  - first:
+      213: -2201329022229656123
+    second: 128x128PrincessFULL_22
+  - first:
+      213: -4441359358743667204
+    second: 128x128PrincessFULL_23
+  - first:
+      213: 2563471765336777458
+    second: 128x128PrincessFULL_24
+  - first:
+      213: -3678601618744252419
+    second: 128x128PrincessFULL_25
+  - first:
+      213: -888385574737173128
+    second: 128x128PrincessFULL_26
+  - first:
+      213: 1827380268692733336
+    second: 128x128PrincessFULL_27
+  - first:
+      213: -576710732498358155
+    second: 128x128PrincessFULL_28
+  - first:
+      213: -7744419124963148028
+    second: 128x128PrincessFULL_29
+  - first:
+      213: -4867056145716278032
+    second: 128x128PrincessFULL_30
+  - first:
+      213: 6753293092648226691
+    second: 128x128PrincessFULL_31
+  - first:
+      213: 8045547217036068781
+    second: 128x128PrincessFULL_32
+  - first:
+      213: -857978268262848946
+    second: 128x128PrincessFULL_33
+  - first:
+      213: 5493806917723981858
+    second: 128x128PrincessFULL_34
+  - first:
+      213: -6530101563753446736
+    second: 128x128PrincessFULL_35
+  - first:
+      213: 8544326269735547087
+    second: 128x128PrincessFULL_36
+  - first:
+      213: 1525577038862569913
+    second: 128x128PrincessFULL_37
+  - first:
+      213: -7757659328043808814
+    second: 128x128PrincessFULL_38
+  - first:
+      213: -2385458304573860458
+    second: 128x128PrincessFULL_39
+  - first:
+      213: 6159826725373079918
+    second: 128x128PrincessFULL_40
+  - first:
+      213: 3393524491004292259
+    second: 128x128PrincessFULL_41
+  - first:
+      213: -7209496072629077444
+    second: 128x128PrincessFULL_42
+  - first:
+      213: 1442527144911117425
+    second: 128x128PrincessFULL_43
+  - first:
+      213: 3298862460492657744
+    second: 128x128PrincessFULL_44
+  - first:
+      213: -6874472183188263895
+    second: 128x128PrincessFULL_45
+  - first:
+      213: -9146466966232227333
+    second: 128x128PrincessFULL_46
+  - first:
+      213: -8021699558218111596
+    second: 128x128PrincessFULL_47
+  - first:
+      213: -3670653539582111986
+    second: 128x128PrincessFULL_48
+  - first:
+      213: -511321982089114981
+    second: 128x128PrincessFULL_49
+  - first:
+      213: 5038956049840268858
+    second: 128x128PrincessFULL_50
+  - first:
+      213: -1265793393373457864
+    second: 128x128PrincessFULL_51
+  - first:
+      213: -3626156697177990833
+    second: 128x128PrincessFULL_52
+  - first:
+      213: 6345055182351522588
+    second: 128x128PrincessFULL_53
+  - first:
+      213: 5702171083651235203
+    second: 128x128PrincessFULL_54
+  - first:
+      213: -6019852261858093119
+    second: 128x128PrincessFULL_55
+  - first:
+      213: 1386394492525799891
+    second: 128x128PrincessFULL_56
+  - first:
+      213: 4768523280560772929
+    second: 128x128PrincessFULL_57
+  - first:
+      213: 26151205049377136
+    second: 128x128PrincessFULL_58
+  - first:
+      213: -233957940619928436
+    second: 128x128PrincessFULL_59
+  - first:
+      213: -350767217673413527
+    second: 128x128PrincessFULL_60
+  - first:
+      213: -3506608947376319463
+    second: 128x128PrincessFULL_61
+  - first:
+      213: -7222770483462601503
+    second: 128x128PrincessFULL_62
+  - first:
+      213: 776968997200482913
+    second: 128x128PrincessFULL_63
+  - first:
+      213: -3832730720772716957
+    second: 128x128PrincessFULL_64
+  - first:
+      213: 925660300736988127
+    second: 128x128PrincessFULL_65
+  - first:
+      213: 8073478874303539943
+    second: 128x128PrincessFULL_66
+  - first:
+      213: -8467784767365329464
+    second: 128x128PrincessFULL_67
+  - first:
+      213: -5632587185626323105
+    second: 128x128PrincessFULL_68
+  - first:
+      213: -4102507358132254630
+    second: 128x128PrincessFULL_69
+  - first:
+      213: -3496848291410637806
+    second: 128x128PrincessFULL_70
+  - first:
+      213: 9143433072308649641
+    second: 128x128PrincessFULL_71
+  - first:
+      213: -7619297085489419651
+    second: 128x128PrincessFULL_72
+  - first:
+      213: 6514578362524860338
+    second: 128x128PrincessFULL_73
+  - first:
+      213: 5578031178836407696
+    second: 128x128PrincessFULL_74
+  - first:
+      213: 677717685729399594
+    second: 128x128PrincessFULL_75
+  - first:
+      213: 5406293078449268725
+    second: 128x128PrincessFULL_76
+  - first:
+      213: -5896591411169641220
+    second: 128x128PrincessFULL_77
+  - first:
+      213: -8872117197920175656
+    second: 128x128PrincessFULL_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7544139b0343a30800000000000000
+      internalID: 4194030724942419948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21c431cd5eb06210800000000000000
+      internalID: 1324267600329621803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94ef0288107e0190800000000000000
+      internalID: -7994329037972446051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a43da327c145860800000000000000
+      internalID: 7517664954926975595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e862f6c3e053980800000000000000
+      internalID: -8559919864022135191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8402c6148d05dd400800000000000000
+      internalID: 350525235745529928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88adf98b9529ddaa0800000000000000
+      internalID: -6134586203361518968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_7
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3279375b54db650800000000000000
+      internalID: 6250228503490798565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_8
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e858d779ff66ba0800000000000000
+      internalID: -6095904019488338274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_9
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 136
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ac56025e0c56e10800000000000000
+      internalID: 2190368884109199956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c82d5f60c0d8360800000000000000
+      internalID: 7173403005504621650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18970554b5ff12d00800000000000000
+      internalID: 946318164194523521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27866abb135309460800000000000000
+      internalID: 7246350288157042802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db10d29e650e3000800000000000000
+      internalID: 17457421023714259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85df4285042c8d50800000000000000
+      internalID: 6740802348346496399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_15
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7daf83bddaeb080800000000000000
+      internalID: -9169700634214344716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_16
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef76c99f4f504dae0800000000000000
+      internalID: -1525587824053819394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_17
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88be3bf7a838ff420800000000000000
+      internalID: 2665994135297846152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0de322d64ab4beb0800000000000000
+      internalID: -4704930897359278834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 128x128PrincessFULL_19
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0175c09a6f9906510800000000000000
+      internalID: 1540400357237872400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 806f08f62bd8e4e458f55b952c40bfb7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":8.0,"y":8.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      128x128PrincessFULL_0: 4194030724942419948
+      128x128PrincessFULL_1: 1324267600329621803
+      128x128PrincessFULL_10: 7173403005504621650
+      128x128PrincessFULL_11: 946318164194523521
+      128x128PrincessFULL_12: 7246350288157042802
+      128x128PrincessFULL_13: 17457421023714259
+      128x128PrincessFULL_14: 6740802348346496399
+      128x128PrincessFULL_15: -9169700634214344716
+      128x128PrincessFULL_16: -1525587824053819394
+      128x128PrincessFULL_17: 2665994135297846152
+      128x128PrincessFULL_18: -4704930897359278834
+      128x128PrincessFULL_19: 1540400357237872400
+      128x128PrincessFULL_2: -7994329037972446051
+      128x128PrincessFULL_3: 7517664954926975595
+      128x128PrincessFULL_4: -8559919864022135191
+      128x128PrincessFULL_5: 350525235745529928
+      128x128PrincessFULL_6: -6134586203361518968
+      128x128PrincessFULL_7: 6250228503490798565
+      128x128PrincessFULL_8: -6095904019488338274
+      128x128PrincessFULL_9: 2190368884109199956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

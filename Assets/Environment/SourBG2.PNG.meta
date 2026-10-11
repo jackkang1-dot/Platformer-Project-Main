@@ -1,46 +1,67 @@
 fileFormatVersion: 2
-guid: 6345d015104de3f40b1eeb2cc59a7413
+guid: a9ca1647931a1f446b2f66eee8f61d31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7235513054026922480
-    second: JohnGoombaSprite1_0
+      213: 9149288011923051853
+    second: SourBG2_0
   - first:
-      213: 6918821191268354540
-    second: JohnGoombaSprite1_1
+      213: -2184252426017477125
+    second: SourBG2_1
   - first:
-      213: -4455985382645159680
-    second: JohnGoombaSprite1_2
+      213: 345948080154285659
+    second: SourBG2_2
   - first:
-      213: -4212331820566414912
-    second: JohnGoombaSprite1_3
+      213: 2902286119142403441
+    second: SourBG2_3
   - first:
-      213: -1765443019049037587
-    second: JohnGoombaSprite1_4
+      213: -8691329160596348481
+    second: SourBG2_4
   - first:
-      213: -2554822358266046600
-    second: JohnGoombaSprite1_5
+      213: -2809294812431731635
+    second: SourBG2_5
   - first:
-      213: 7605769779035602965
-    second: JohnGoombaSprite1_6
+      213: -4107527492760534686
+    second: SourBG2_6
   - first:
-      213: -2402210534841455590
-    second: JohnGoombaSprite1_7
+      213: -4069451271865445307
+    second: SourBG2_7
   - first:
-      213: 690736610777914418
-    second: JohnGoombaSprite1_8
+      213: -2024924437749023600
+    second: SourBG2_8
   - first:
-      213: 7507684302738044798
-    second: JohnGoombaSprite1_9
+      213: 19987787797699465
+    second: SourBG2_9
   - first:
-      213: -399952875451214835
-    second: JohnGoombaSprite1_10
+      213: -6674443549437350958
+    second: SourBG2_10
   - first:
-      213: -276220379448868186
-    second: JohnGoombaSprite1_11
+      213: -7242711086026441447
+    second: SourBG2_11
   - first:
-      213: 2985588382465602830
-    second: JohnGoombaSprite1_12
+      213: -6640003027069896290
+    second: SourBG2_12
+  - first:
+      213: 4898005743402940718
+    second: SourBG2_13
+  - first:
+      213: 1712119305495093000
+    second: SourBG2_14
+  - first:
+      213: -852815762927257383
+    second: SourBG2_15
+  - first:
+      213: 861018951218169616
+    second: SourBG2_16
+  - first:
+      213: -1823979144080593802
+    second: SourBG2_17
+  - first:
+      213: -6768437175540263491
+    second: SourBG2_18
+  - first:
+      213: -278485413716783681
+    second: SourBG2_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,11 +157,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JohnGoombaSprite1_0
+      name: SourBG2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 42
+        x: 0
+        y: 148
         width: 32
         height: 32
       alignment: 0
@@ -151,18 +172,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0160607763b469b90800000000000000
-      internalID: -7235513054026922480
+      spriteID: d45d96ac8fcc8fe70800000000000000
+      internalID: 9149288011923051853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_1
+      name: SourBG2_1
       rect:
         serializedVersion: 2
         x: 39
-        y: 42
+        y: 148
         width: 32
         height: 32
       alignment: 0
@@ -173,18 +194,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce9cef94737940060800000000000000
-      internalID: 6918821191268354540
+      spriteID: bfd617fbdf9ffa1e0800000000000000
+      internalID: -2184252426017477125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_2
+      name: SourBG2_2
       rect:
         serializedVersion: 2
         x: 77
-        y: 42
+        y: 148
         width: 32
         height: 32
       alignment: 0
@@ -195,18 +216,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0092a1f37e82922c0800000000000000
-      internalID: -4455985382645159680
+      spriteID: b56135c22fd0dc400800000000000000
+      internalID: 345948080154285659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_3
+      name: SourBG2_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 42
+        x: 116
+        y: 148
         width: 32
         height: 32
       alignment: 0
@@ -217,18 +238,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c9701fe68aca85c0800000000000000
-      internalID: -4212331820566414912
+      spriteID: 17da70039ddf64820800000000000000
+      internalID: 2902286119142403441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_4
+      name: SourBG2_4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 42
+        x: 0
+        y: 110
         width: 32
         height: 32
       alignment: 0
@@ -239,17 +260,259 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de0936a8de2ef77e0800000000000000
-      internalID: -1765443019049037587
+      spriteID: fb129a45d22326780800000000000000
+      internalID: -8691329160596348481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_5
+      name: SourBG2_5
       rect:
         serializedVersion: 2
-        x: 1
+        x: 38
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44b8ab90416309d0800000000000000
+      internalID: -2809294812431731635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2618bd802812ff6c0800000000000000
+      internalID: -4107527492760534686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544d2bd01a76687c0800000000000000
+      internalID: -4069451271865445307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c36fec3f506e3e0800000000000000
+      internalID: -2024924437749023600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b178f79c2074000800000000000000
+      internalID: 19987787797699465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dba36a54fc9f53a0800000000000000
+      internalID: -6674443549437350958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d3c9a04a8bc7b90800000000000000
+      internalID: -7242711086026441447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99faf75d68f9d3a0800000000000000
+      internalID: -6640003027069896290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29fa5bd54639f340800000000000000
+      internalID: 4898005743402940718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f9f19ef6ba2c710800000000000000
+      internalID: 1712119305495093000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8fddff4903a24f0800000000000000
+      internalID: -852815762927257383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SourBG2_16
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -261,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8779357e9927b8cd0800000000000000
-      internalID: -2554822358266046600
+      spriteID: 0170d3c9c24f2fb00800000000000000
+      internalID: 861018951218169616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_6
+      name: SourBG2_17
       rect:
         serializedVersion: 2
         x: 39
@@ -283,17 +546,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51081d2215f1d8960800000000000000
-      internalID: 7605769779035602965
+      spriteID: 67cea5fd1acefa6e0800000000000000
+      internalID: -1823979144080593802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_7
+      name: SourBG2_18
       rect:
         serializedVersion: 2
-        x: 78
+        x: 76
         y: 0
         width: 32
         height: 32
@@ -305,17 +568,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1ce21bfe32a9aed0800000000000000
-      internalID: -2402210534841455590
+      spriteID: db5df53ef3ea112a0800000000000000
+      internalID: -6768437175540263491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_8
+      name: SourBG2_19
       rect:
         serializedVersion: 2
-        x: 115
+        x: 116
         y: 0
         width: 32
         height: 32
@@ -327,96 +590,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23c56cea94df59900800000000000000
-      internalID: 690736610777914418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_9
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e773a7e8817a03860800000000000000
-      internalID: 7507684302738044798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_10
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0495d39af4137af0800000000000000
-      internalID: -399952875451214835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_11
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a20a33470baa2cf0800000000000000
-      internalID: -276220379448868186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_12
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e053566c0d0fe6920800000000000000
-      internalID: 2985588382465602830
+      spriteID: fbd8840edfe922cf0800000000000000
+      internalID: -278485413716783681
       vertices: []
       indices: 
       edges: []
@@ -425,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 557a2b6fa67f8e945a1957bb59880ef4
+    spriteID: a99d61d6390b4d14e96118a44b11c13d
     internalID: 0
     vertices: []
     indices: 
@@ -433,23 +608,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":32.0,"y":27.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":6.0,"y":15.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      JohnGoombaSprite1_0: -7235513054026922480
-      JohnGoombaSprite1_1: 6918821191268354540
-      JohnGoombaSprite1_10: -399952875451214835
-      JohnGoombaSprite1_11: -276220379448868186
-      JohnGoombaSprite1_12: 2985588382465602830
-      JohnGoombaSprite1_2: -4455985382645159680
-      JohnGoombaSprite1_3: -4212331820566414912
-      JohnGoombaSprite1_4: -1765443019049037587
-      JohnGoombaSprite1_5: -2554822358266046600
-      JohnGoombaSprite1_6: 7605769779035602965
-      JohnGoombaSprite1_7: -2402210534841455590
-      JohnGoombaSprite1_8: 690736610777914418
-      JohnGoombaSprite1_9: 7507684302738044798
+      SourBG2_0: 9149288011923051853
+      SourBG2_1: -2184252426017477125
+      SourBG2_10: -6674443549437350958
+      SourBG2_11: -7242711086026441447
+      SourBG2_12: -6640003027069896290
+      SourBG2_13: 4898005743402940718
+      SourBG2_14: 1712119305495093000
+      SourBG2_15: -852815762927257383
+      SourBG2_16: 861018951218169616
+      SourBG2_17: -1823979144080593802
+      SourBG2_18: -6768437175540263491
+      SourBG2_19: -278485413716783681
+      SourBG2_2: 345948080154285659
+      SourBG2_3: 2902286119142403441
+      SourBG2_4: -8691329160596348481
+      SourBG2_5: -2809294812431731635
+      SourBG2_6: -4107527492760534686
+      SourBG2_7: -4069451271865445307
+      SourBG2_8: -2024924437749023600
+      SourBG2_9: 19987787797699465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

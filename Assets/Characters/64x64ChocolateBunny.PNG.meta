@@ -1,46 +1,73 @@
 fileFormatVersion: 2
-guid: 6345d015104de3f40b1eeb2cc59a7413
+guid: 3ff3725875d6abf4e82efcd8a35cdd75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7235513054026922480
-    second: JohnGoombaSprite1_0
+      213: 8992213607055332956
+    second: 64x64ChocolateBunny_0
   - first:
-      213: 6918821191268354540
-    second: JohnGoombaSprite1_1
+      213: 5757833537194979339
+    second: 64x64ChocolateBunny_1
   - first:
-      213: -4455985382645159680
-    second: JohnGoombaSprite1_2
+      213: 6269250599274533778
+    second: 64x64ChocolateBunny_2
   - first:
-      213: -4212331820566414912
-    second: JohnGoombaSprite1_3
+      213: 2141858542695384970
+    second: 64x64ChocolateBunny_3
   - first:
-      213: -1765443019049037587
-    second: JohnGoombaSprite1_4
+      213: -2190849076800100784
+    second: 64x64ChocolateBunny_4
   - first:
-      213: -2554822358266046600
-    second: JohnGoombaSprite1_5
+      213: 5627510790962993717
+    second: 64x64ChocolateBunny_5
   - first:
-      213: 7605769779035602965
-    second: JohnGoombaSprite1_6
+      213: -6066998623607437995
+    second: 64x64ChocolateBunny_6
   - first:
-      213: -2402210534841455590
-    second: JohnGoombaSprite1_7
+      213: -8388924045199511260
+    second: 64x64ChocolateBunny_7
   - first:
-      213: 690736610777914418
-    second: JohnGoombaSprite1_8
+      213: -8900636267855884858
+    second: 64x64ChocolateBunny_8
   - first:
-      213: 7507684302738044798
-    second: JohnGoombaSprite1_9
+      213: -8995107835136045545
+    second: 64x64ChocolateBunny_9
   - first:
-      213: -399952875451214835
-    second: JohnGoombaSprite1_10
+      213: -1840395278412070038
+    second: 64x64ChocolateBunny_10
   - first:
-      213: -276220379448868186
-    second: JohnGoombaSprite1_11
+      213: -708377610711778989
+    second: 64x64ChocolateBunny_11
   - first:
-      213: 2985588382465602830
-    second: JohnGoombaSprite1_12
+      213: 2389003799969031321
+    second: 64x64ChocolateBunny_12
+  - first:
+      213: 3450002557373639865
+    second: 64x64ChocolateBunny_13
+  - first:
+      213: 1285720447729568901
+    second: 64x64ChocolateBunny_14
+  - first:
+      213: -2477932679610350637
+    second: 64x64ChocolateBunny_15
+  - first:
+      213: -3415782529970591124
+    second: 64x64ChocolateBunny_16
+  - first:
+      213: 3679434391650945826
+    second: 64x64ChocolateBunny_17
+  - first:
+      213: -3453077143440793197
+    second: 64x64ChocolateBunny_18
+  - first:
+      213: 6258333240833115530
+    second: 64x64ChocolateBunny_19
+  - first:
+      213: -3220633652231555635
+    second: 64x64ChocolateBunny_20
+  - first:
+      213: -5466064361474857975
+    second: 64x64ChocolateBunny_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +114,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,13 +163,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JohnGoombaSprite1_0
+      name: 64x64ChocolateBunny_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 42
-        width: 32
-        height: 32
+        x: 0
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0160607763b469b90800000000000000
-      internalID: -7235513054026922480
+      spriteID: c5697f002a2cacc70800000000000000
+      internalID: 8992213607055332956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_1
+      name: 64x64ChocolateBunny_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 42
-        width: 32
-        height: 32
+        x: 72
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce9cef94737940060800000000000000
-      internalID: 6918821191268354540
+      spriteID: b007654881fe7ef40800000000000000
+      internalID: 5757833537194979339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_2
+      name: 64x64ChocolateBunny_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 42
-        width: 32
-        height: 32
+        x: 144
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0092a1f37e82922c0800000000000000
-      internalID: -4455985382645159680
+      spriteID: 293d9a1443ad00750800000000000000
+      internalID: 6269250599274533778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_3
+      name: 64x64ChocolateBunny_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 42
-        width: 32
-        height: 32
+        x: 216
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c9701fe68aca85c0800000000000000
-      internalID: -4212331820566414912
+      spriteID: a878e7c1ff869bd10800000000000000
+      internalID: 2141858542695384970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_4
+      name: 64x64ChocolateBunny_4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 42
-        width: 32
-        height: 32
+        x: 288
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +266,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de0936a8de2ef77e0800000000000000
-      internalID: -1765443019049037587
+      spriteID: 05666dc4f5a8891e0800000000000000
+      internalID: -2190849076800100784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_5
+      name: 64x64ChocolateBunny_5
       rect:
         serializedVersion: 2
-        x: 1
+        x: 360
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ad601af3fe81e40800000000000000
+      internalID: 5627510790962993717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x64ChocolateBunny_6
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8779357e9927b8cd0800000000000000
-      internalID: -2554822358266046600
+      spriteID: 555481b65e0bdcba0800000000000000
+      internalID: -6066998623607437995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_6
+      name: 64x64ChocolateBunny_7
       rect:
         serializedVersion: 2
-        x: 39
+        x: 72
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51081d2215f1d8960800000000000000
-      internalID: 7605769779035602965
+      spriteID: 421762ef60e849b80800000000000000
+      internalID: -8388924045199511260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_7
+      name: 64x64ChocolateBunny_8
       rect:
         serializedVersion: 2
-        x: 78
+        x: 144
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1ce21bfe32a9aed0800000000000000
-      internalID: -2402210534841455590
+      spriteID: 6cdcd73d8769a7480800000000000000
+      internalID: -8900636267855884858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_8
+      name: 64x64ChocolateBunny_9
       rect:
         serializedVersion: 2
-        x: 115
+        x: 216
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23c56cea94df59900800000000000000
-      internalID: 690736610777914418
+      spriteID: 71e02620515fa2380800000000000000
+      internalID: -8995107835136045545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_9
+      name: 64x64ChocolateBunny_10
       rect:
         serializedVersion: 2
-        x: 153
+        x: 288
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +398,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e773a7e8817a03860800000000000000
-      internalID: 7507684302738044798
+      spriteID: a6341ffbe3a9576e0800000000000000
+      internalID: -1840395278412070038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JohnGoombaSprite1_10
+      name: 64x64ChocolateBunny_11
       rect:
         serializedVersion: 2
-        x: 191
+        x: 360
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,52 +420,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0495d39af4137af0800000000000000
-      internalID: -399952875451214835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_11
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a20a33470baa2cf0800000000000000
-      internalID: -276220379448868186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JohnGoombaSprite1_12
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e053566c0d0fe6920800000000000000
-      internalID: 2985588382465602830
+      spriteID: 3593fa2f0565b26f0800000000000000
+      internalID: -708377610711778989
       vertices: []
       indices: 
       edges: []
@@ -425,7 +430,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 557a2b6fa67f8e945a1957bb59880ef4
+    spriteID: 4485340a4dc17f94aa04c7ddf6192e1a
     internalID: 0
     vertices: []
     indices: 
@@ -435,21 +440,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":32.0,"y":27.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":6.0,"y":15.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":8.0,"y":16.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      JohnGoombaSprite1_0: -7235513054026922480
-      JohnGoombaSprite1_1: 6918821191268354540
-      JohnGoombaSprite1_10: -399952875451214835
-      JohnGoombaSprite1_11: -276220379448868186
-      JohnGoombaSprite1_12: 2985588382465602830
-      JohnGoombaSprite1_2: -4455985382645159680
-      JohnGoombaSprite1_3: -4212331820566414912
-      JohnGoombaSprite1_4: -1765443019049037587
-      JohnGoombaSprite1_5: -2554822358266046600
-      JohnGoombaSprite1_6: 7605769779035602965
-      JohnGoombaSprite1_7: -2402210534841455590
-      JohnGoombaSprite1_8: 690736610777914418
-      JohnGoombaSprite1_9: 7507684302738044798
+      64x64ChocolateBunny_0: 8992213607055332956
+      64x64ChocolateBunny_1: 5757833537194979339
+      64x64ChocolateBunny_10: -1840395278412070038
+      64x64ChocolateBunny_11: -708377610711778989
+      64x64ChocolateBunny_2: 6269250599274533778
+      64x64ChocolateBunny_3: 2141858542695384970
+      64x64ChocolateBunny_4: -2190849076800100784
+      64x64ChocolateBunny_5: 5627510790962993717
+      64x64ChocolateBunny_6: -6066998623607437995
+      64x64ChocolateBunny_7: -8388924045199511260
+      64x64ChocolateBunny_8: -8900636267855884858
+      64x64ChocolateBunny_9: -8995107835136045545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
