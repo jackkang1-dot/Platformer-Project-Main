@@ -21,8 +21,22 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private LayerMask enemyLayers;
 
     [Header("Input")]
-    [Tooltip("Defaults to the J key. Change the binding here in the Inspector if you like.")]
-    [SerializeField] private InputAction attackAction = new InputAction("Attack", InputActionType.Button, "<Keyboard>/j");
+    [Tooltip("Attack controls. Defaults to Left Mouse Button, Q and J (any of them works). Add, remove or change bindings here in the Inspector.")]
+    [SerializeField] private InputAction attackInput = CreateDefaultAttackInput();
+
+    static InputAction CreateDefaultAttackInput()
+    {
+        InputAction action = new InputAction("Attack", InputActionType.Button);
+        AddDefaultBindings(action);
+        return action;
+    }
+
+    static void AddDefaultBindings(InputAction action)
+    {
+        action.AddBinding("<Mouse>/leftButton");
+        action.AddBinding("<Keyboard>/q");
+        action.AddBinding("<Keyboard>/j");
+    }
 
     [Header("Animation")]
     [Tooltip("Name of the Trigger parameter in the player's Animator that plays the attack animation (case-sensitive).")]
@@ -55,24 +69,24 @@ public class PlayerAttack : MonoBehaviour
 
     void OnEnable()
     {
-        // Safety net: if the Inspector copy of the action has no binding, restore the J key
-        if (attackAction.bindings.Count == 0)
+        // Safety net: if the Inspector copy of the action has no bindings, restore the defaults
+        if (attackInput.bindings.Count == 0)
         {
-            attackAction.AddBinding("<Keyboard>/j");
-            Log("Attack Action had no binding, so the J key was added automatically.");
+            AddDefaultBindings(attackInput);
+            Log("Attack Input had no bindings, so Left Mouse Button, Q and J were added automatically.");
         }
 
-        attackAction.Enable();
+        attackInput.Enable();
     }
 
     void OnDisable()
     {
-        attackAction.Disable();
+        attackInput.Disable();
     }
 
     void Update()
     {
-        if (!attackAction.WasPressedThisFrame()) return;
+        if (!attackInput.WasPressedThisFrame()) return;
 
         Log("Attack key pressed.");
 
