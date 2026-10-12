@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 1325d98eed2799348af026e660af991e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2174533610680418533
+    second: DentistFullSpritesheet_0
+  - first:
+      213: 2387892379442517541
+    second: DentistFullSpritesheet_1
+  - first:
+      213: 7699400809433982906
+    second: DentistFullSpritesheet_2
+  - first:
+      213: 6880214672921690142
+    second: DentistFullSpritesheet_3
+  - first:
+      213: 448716683310775253
+    second: DentistFullSpritesheet_4
+  - first:
+      213: -1077156537094954513
+    second: DentistFullSpritesheet_5
+  - first:
+      213: 958021793850630781
+    second: DentistFullSpritesheet_6
+  - first:
+      213: 6780465495827299694
+    second: DentistFullSpritesheet_7
+  - first:
+      213: -3837648903197505044
+    second: DentistFullSpritesheet_8
+  - first:
+      213: 4712289747541183949
+    second: DentistFullSpritesheet_9
+  - first:
+      213: -2702199847135031941
+    second: DentistFullSpritesheet_10
+  - first:
+      213: -3682119826794713736
+    second: DentistFullSpritesheet_11
+  - first:
+      213: 5436093343072951062
+    second: DentistFullSpritesheet_12
+  - first:
+      213: -7546773312181723839
+    second: DentistFullSpritesheet_13
+  - first:
+      213: -2332022189212899940
+    second: DentistFullSpritesheet_14
+  - first:
+      213: 791187891232968414
+    second: DentistFullSpritesheet_15
+  - first:
+      213: -7790252559732650239
+    second: DentistFullSpritesheet_16
+  - first:
+      213: -3439771798106646761
+    second: DentistFullSpritesheet_17
+  - first:
+      213: 7960293816909438549
+    second: DentistFullSpritesheet_18
+  - first:
+      213: -8546945850305442963
+    second: DentistFullSpritesheet_19
+  - first:
+      213: -9067057118616842527
+    second: DentistFullSpritesheet_20
+  - first:
+      213: -4930871903316454272
+    second: DentistFullSpritesheet_21
+  - first:
+      213: -5144266207262957914
+    second: DentistFullSpritesheet_22
+  - first:
+      213: 1631245087507588273
+    second: DentistFullSpritesheet_23
+  - first:
+      213: -3397838537688207348
+    second: DentistFullSpritesheet_24
+  - first:
+      213: -2011734311784359382
+    second: DentistFullSpritesheet_25
+  - first:
+      213: -4168533277032336754
+    second: DentistFullSpritesheet_26
+  - first:
+      213: 4173291903302752510
+    second: DentistFullSpritesheet_27
+  - first:
+      213: -2326757084647951037
+    second: DentistFullSpritesheet_28
+  - first:
+      213: 1718837573308798277
+    second: DentistFullSpritesheet_29
+  - first:
+      213: -6760010959353835592
+    second: DentistFullSpritesheet_30
+  - first:
+      213: 5509394398026144057
+    second: DentistFullSpritesheet_31
+  - first:
+      213: 4435536818920432444
+    second: DentistFullSpritesheet_32
+  - first:
+      213: -8495139219041115716
+    second: DentistFullSpritesheet_33
+  - first:
+      213: -8474350705258741509
+    second: DentistFullSpritesheet_34
+  - first:
+      213: -1033837186299504736
+    second: DentistFullSpritesheet_35
+  - first:
+      213: 684718875413227919
+    second: DentistFullSpritesheet_36
+  - first:
+      213: -2181992611870656890
+    second: DentistFullSpritesheet_37
+  - first:
+      213: -6860005702317627624
+    second: DentistFullSpritesheet_38
+  - first:
+      213: -2560349643530985285
+    second: DentistFullSpritesheet_39
+  - first:
+      213: 8204473909792393461
+    second: DentistFullSpritesheet_40
+  - first:
+      213: 5405389064568858567
+    second: DentistFullSpritesheet_41
+  - first:
+      213: -3682151708664503146
+    second: DentistFullSpritesheet_42
+  - first:
+      213: 2893748107894499859
+    second: DentistFullSpritesheet_43
+  - first:
+      213: -6004546554530845438
+    second: DentistFullSpritesheet_44
+  - first:
+      213: 386185674218953394
+    second: DentistFullSpritesheet_45
+  - first:
+      213: -9037893501877519177
+    second: DentistFullSpritesheet_46
+  - first:
+      213: -8260650291186151345
+    second: DentistFullSpritesheet_47
+  - first:
+      213: -4248133164949780653
+    second: DentistFullSpritesheet_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 303
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e001c83cce7d2e10800000000000000
+      internalID: 2174533610680418533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526988ea77f732120800000000000000
+      internalID: 2387892379442517541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 266
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7eaa53e34c9da60800000000000000
+      internalID: 7699400809433982906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 265
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e108de5cace6b7f50800000000000000
+      internalID: 6880214672921690142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 265
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbb78132792a3600800000000000000
+      internalID: 448716683310775253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 267
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe127f626db2d01f0800000000000000
+      internalID: -1077156537094954513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 265
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72ac85eeb39b4d00800000000000000
+      internalID: 958021793850630781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 265
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d349aa17d091e50800000000000000
+      internalID: 6780465495827299694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 265
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9ce30c7aeedbac0800000000000000
+      internalID: -3837648903197505044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd48e00f8a656140800000000000000
+      internalID: 4712289747541183949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dc66f4e8bdf7ad0800000000000000
+      internalID: -2702199847135031941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 227
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d6a77b68b76ecc0800000000000000
+      internalID: -3682119826794713736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 227
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b9ab70812e07b40800000000000000
+      internalID: 5436093343072951062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 227
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d920738a9744790800000000000000
+      internalID: -7546773312181723839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95e2abac2ef2afd0800000000000000
+      internalID: -2332022189212899940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede0887f13ddafa00800000000000000
+      internalID: 791187891232968414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 189
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fce8a429673e390800000000000000
+      internalID: -7790252559732650239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 189
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717527936c97340d0800000000000000
+      internalID: -3439771798106646761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 151
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e10a01d05a87e60800000000000000
+      internalID: 7960293816909438549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 151
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b8b066806236980800000000000000
+      internalID: -8546945850305442963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 151
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee8aa607975b2280800000000000000
+      internalID: -9067057118616842527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0845ed9f026029bb0800000000000000
+      internalID: -4930871903316454272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae9b06d325eb98b0800000000000000
+      internalID: -5144266207262957914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4ad7ea3c853a610800000000000000
+      internalID: 1631245087507588273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0036fc3ad378d0d0800000000000000
+      internalID: -3397838537688207348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 151
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ad0a35d42e414e0800000000000000
+      internalID: -2011734311784359382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 113
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82b71402156626c0800000000000000
+      internalID: -4168533277032336754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 113
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8df5000e28ae930800000000000000
+      internalID: 4173291903302752510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 113
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3457fea52c2b5bfd0800000000000000
+      internalID: -2326757084647951037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 113
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5455aa78aa98ad710800000000000000
+      internalID: 1718837573308798277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf87f939dd9f22a0800000000000000
+      internalID: -6760010959353835592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93910e5d30d457c40800000000000000
+      internalID: 5509394398026144057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c332bef7c313e8d30800000000000000
+      internalID: 4435536818920432444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1a093b3e33b1a80800000000000000
+      internalID: -8495139219041115716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 113
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0c8febeee056a80800000000000000
+      internalID: -8474350705258741509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7570b7e8217a1f0800000000000000
+      internalID: -1033837186299504736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89a20c703c908900800000000000000
+      internalID: 684718875413227919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 75
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6863ceab74108b1e0800000000000000
+      internalID: -2181992611870656890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 75
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817243cd82d5cc0a0800000000000000
+      internalID: -6860005702317627624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0a984809fc77cd0800000000000000
+      internalID: -2560349643530985285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8c2224d852cd170800000000000000
+      internalID: 8204473909792393461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7686a17bcc30b40800000000000000
+      internalID: 5405389064568858567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69464f3a78e56ecc0800000000000000
+      internalID: -3682151708664503146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aa2888298a82820800000000000000
+      internalID: 2893748107894499859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20da4ebd8b09baca0800000000000000
+      internalID: -6004546554530845438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba5a2913d10c5500800000000000000
+      internalID: 386185674218953394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc77ceaeb3f29280800000000000000
+      internalID: -9037893501877519177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f405f14b3564c5d80800000000000000
+      internalID: -8260650291186151345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistFullSpritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357cc90e4699b05c0800000000000000
+      internalID: -4248133164949780653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DentistFullSpritesheet_0: 2174533610680418533
+      DentistFullSpritesheet_1: 2387892379442517541
+      DentistFullSpritesheet_10: -2702199847135031941
+      DentistFullSpritesheet_11: -3682119826794713736
+      DentistFullSpritesheet_12: 5436093343072951062
+      DentistFullSpritesheet_13: -7546773312181723839
+      DentistFullSpritesheet_14: -2332022189212899940
+      DentistFullSpritesheet_15: 791187891232968414
+      DentistFullSpritesheet_16: -7790252559732650239
+      DentistFullSpritesheet_17: -3439771798106646761
+      DentistFullSpritesheet_18: 7960293816909438549
+      DentistFullSpritesheet_19: -8546945850305442963
+      DentistFullSpritesheet_2: 7699400809433982906
+      DentistFullSpritesheet_20: -9067057118616842527
+      DentistFullSpritesheet_21: -4930871903316454272
+      DentistFullSpritesheet_22: -5144266207262957914
+      DentistFullSpritesheet_23: 1631245087507588273
+      DentistFullSpritesheet_24: -3397838537688207348
+      DentistFullSpritesheet_25: -2011734311784359382
+      DentistFullSpritesheet_26: -4168533277032336754
+      DentistFullSpritesheet_27: 4173291903302752510
+      DentistFullSpritesheet_28: -2326757084647951037
+      DentistFullSpritesheet_29: 1718837573308798277
+      DentistFullSpritesheet_3: 6880214672921690142
+      DentistFullSpritesheet_30: -6760010959353835592
+      DentistFullSpritesheet_31: 5509394398026144057
+      DentistFullSpritesheet_32: 4435536818920432444
+      DentistFullSpritesheet_33: -8495139219041115716
+      DentistFullSpritesheet_34: -8474350705258741509
+      DentistFullSpritesheet_35: -1033837186299504736
+      DentistFullSpritesheet_36: 684718875413227919
+      DentistFullSpritesheet_37: -2181992611870656890
+      DentistFullSpritesheet_38: -6860005702317627624
+      DentistFullSpritesheet_39: -2560349643530985285
+      DentistFullSpritesheet_4: 448716683310775253
+      DentistFullSpritesheet_40: 8204473909792393461
+      DentistFullSpritesheet_41: 5405389064568858567
+      DentistFullSpritesheet_42: -3682151708664503146
+      DentistFullSpritesheet_43: 2893748107894499859
+      DentistFullSpritesheet_44: -6004546554530845438
+      DentistFullSpritesheet_45: 386185674218953394
+      DentistFullSpritesheet_46: -9037893501877519177
+      DentistFullSpritesheet_47: -8260650291186151345
+      DentistFullSpritesheet_48: -4248133164949780653
+      DentistFullSpritesheet_5: -1077156537094954513
+      DentistFullSpritesheet_6: 958021793850630781
+      DentistFullSpritesheet_7: 6780465495827299694
+      DentistFullSpritesheet_8: -3837648903197505044
+      DentistFullSpritesheet_9: 4712289747541183949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

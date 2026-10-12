@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: f82950f18b383564b9afee8f6fc68211
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8308683706659455042
+    second: DentistJELLY_0
+  - first:
+      213: 4135248924774954220
+    second: DentistJELLY_1
+  - first:
+      213: 3649630771228102113
+    second: DentistJELLY_2
+  - first:
+      213: -6967512380013801250
+    second: DentistJELLY_3
+  - first:
+      213: -8869219368286024990
+    second: DentistJELLY_4
+  - first:
+      213: 3050469028970869092
+    second: DentistJELLY_5
+  - first:
+      213: -4889478235115687293
+    second: DentistJELLY_6
+  - first:
+      213: -3795565134720384037
+    second: DentistJELLY_7
+  - first:
+      213: 2518231754653813714
+    second: DentistJELLY_8
+  - first:
+      213: 5893038819896805152
+    second: DentistJELLY_9
+  - first:
+      213: -8524017626876549356
+    second: DentistJELLY_10
+  - first:
+      213: -8330645812522833477
+    second: DentistJELLY_11
+  - first:
+      213: -4646258356137194289
+    second: DentistJELLY_12
+  - first:
+      213: -1893339782342996471
+    second: DentistJELLY_13
+  - first:
+      213: 342360264709138594
+    second: DentistJELLY_14
+  - first:
+      213: 7261615236014044000
+    second: DentistJELLY_15
+  - first:
+      213: -220489487044202683
+    second: DentistJELLY_16
+  - first:
+      213: -4995732021534905021
+    second: DentistJELLY_17
+  - first:
+      213: 6529232366636425771
+    second: DentistJELLY_18
+  - first:
+      213: -6622713478360302532
+    second: DentistJELLY_19
+  - first:
+      213: -5753106312831365099
+    second: DentistJELLY_20
+  - first:
+      213: 4220713621267783025
+    second: DentistJELLY_21
+  - first:
+      213: -1006393320134598196
+    second: DentistJELLY_22
+  - first:
+      213: -7939838675732674567
+    second: DentistJELLY_23
+  - first:
+      213: -6717904232412958108
+    second: DentistJELLY_24
+  - first:
+      213: -7124261120777336619
+    second: DentistJELLY_25
+  - first:
+      213: 731799711859334934
+    second: DentistJELLY_26
+  - first:
+      213: -7870819211258779324
+    second: DentistJELLY_27
+  - first:
+      213: 5371743001329414596
+    second: DentistJELLY_28
+  - first:
+      213: -767247559271670545
+    second: DentistJELLY_29
+  - first:
+      213: -5060415481437619992
+    second: DentistJELLY_30
+  - first:
+      213: -1551480781704909997
+    second: DentistJELLY_31
+  - first:
+      213: 6049821820542169158
+    second: DentistJELLY_32
+  - first:
+      213: -1874398057315664119
+    second: DentistJELLY_33
+  - first:
+      213: -411699765132523573
+    second: DentistJELLY_34
+  - first:
+      213: 6093366839298031178
+    second: DentistJELLY_35
+  - first:
+      213: 7050244399950276179
+    second: DentistJELLY_36
+  - first:
+      213: -6839723261149273857
+    second: DentistJELLY_37
+  - first:
+      213: -1659823185051183757
+    second: DentistJELLY_38
+  - first:
+      213: 6675991506218964478
+    second: DentistJELLY_39
+  - first:
+      213: 2925886246348388582
+    second: DentistJELLY_40
+  - first:
+      213: -940867114745601339
+    second: DentistJELLY_41
+  - first:
+      213: -7203617271091937002
+    second: DentistJELLY_42
+  - first:
+      213: -5884203511627609840
+    second: DentistJELLY_43
+  - first:
+      213: 2690014163456090194
+    second: DentistJELLY_44
+  - first:
+      213: 7094677758340460469
+    second: DentistJELLY_45
+  - first:
+      213: 1342720146056764256
+    second: DentistJELLY_46
+  - first:
+      213: 9135700538294779323
+    second: DentistJELLY_47
+  - first:
+      213: -6261486205617760326
+    second: DentistJELLY_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DentistJELLY_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 303
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24043865fcf5e4370800000000000000
+      internalID: 8308683706659455042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4f603dcfa536930800000000000000
+      internalID: 4135248924774954220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 266
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edc26099d716a230800000000000000
+      internalID: 3649630771228102113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 265
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed01425e76c6e4f90800000000000000
+      internalID: -6967512380013801250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 265
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea0c46c9f33ae480800000000000000
+      internalID: -8869219368286024990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 267
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461b3267b61755a20800000000000000
+      internalID: 3050469028970869092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 265
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382fce26375152cb0800000000000000
+      internalID: -4889478235115687293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 265
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd34227ae91735bc0800000000000000
+      internalID: -3795565134720384037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 265
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbcf3e407e82f220800000000000000
+      internalID: 2518231754653813714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0274983859748c150800000000000000
+      internalID: 5893038819896805152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417eada612b94b980800000000000000
+      internalID: -8524017626876549356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 227
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb92bfa65c9936c80800000000000000
+      internalID: -8330645812522833477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 227
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc80cb54ac258fb0800000000000000
+      internalID: -4646258356137194289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 227
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e8452df7189b5e0800000000000000
+      internalID: -1893339782342996471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8623bc8de40c400800000000000000
+      internalID: 342360264709138594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0637e2e559076c460800000000000000
+      internalID: 7261615236014044000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 189
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fa500daf9a0fcf0800000000000000
+      internalID: -220489487044202683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 189
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d2e57e1389baab0800000000000000
+      internalID: -4995732021534905021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 151
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e85d7e3e7c9a50800000000000000
+      internalID: 6529232366636425771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 151
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c74291e256714a0800000000000000
+      internalID: -6622713478360302532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 151
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51011ac2a4cd820b0800000000000000
+      internalID: -5753106312831365099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d915e1dacf29a30800000000000000
+      internalID: 4220713621267783025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc12d018b929802f0800000000000000
+      internalID: -1006393320134598196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_23
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7cb0f9ac600d190800000000000000
+      internalID: -7939838675732674567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462beef81b535c2a0800000000000000
+      internalID: -6717904232412958108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 151
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c0f0b14a812d90800000000000000
+      internalID: -7124261120777336619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 113
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fdb10f5ffd72a00800000000000000
+      internalID: 731799711859334934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 113
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449a995f0ab35c290800000000000000
+      internalID: -7870819211258779324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 113
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13eea8cc34c8a40800000000000000
+      internalID: 5371743001329414596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 113
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec93dee8603a55f0800000000000000
+      internalID: -767247559271670545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8f50d4eeac5c9b0800000000000000
+      internalID: -5060415481437619992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b22aaf278087ae0800000000000000
+      internalID: -1551480781704909997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_32
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640b2d774e845f350800000000000000
+      internalID: 6049821820542169158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_33
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 113
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f740ad5ecccf5e0800000000000000
+      internalID: -1874398057315664119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 113
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc70a21be39594af0800000000000000
+      internalID: -411699765132523573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ef0863bdcff8450800000000000000
+      internalID: 6093366839298031178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35629be8def77d160800000000000000
+      internalID: 7050244399950276179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 75
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0a831beeb6411a0800000000000000
+      internalID: -6839723261149273857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 75
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37511197b9f17f8e0800000000000000
+      internalID: -1659823185051183757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5d4bb67e2e5ac50800000000000000
+      internalID: 6675991506218964478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8fbcef906da9820800000000000000
+      internalID: 2925886246348388582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2edb4185e51f2f0800000000000000
+      internalID: -940867114745601339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61142b2224c970c90800000000000000
+      internalID: -7203617271091937002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_43
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019845ff41c175ea0800000000000000
+      internalID: -5884203511627609840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_44
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250e19d11a9d45520800000000000000
+      internalID: 2690014163456090194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf6fbdf4db557260800000000000000
+      internalID: 7094677758340460469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_46
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b597adbdc42a210800000000000000
+      internalID: 1342720146056764256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_47
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdb76f8c3788ce70800000000000000
+      internalID: 9135700538294779323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DentistJELLY_48
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab71524887bba19a0800000000000000
+      internalID: -6261486205617760326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DentistJELLY_0: 8308683706659455042
+      DentistJELLY_1: 4135248924774954220
+      DentistJELLY_10: -8524017626876549356
+      DentistJELLY_11: -8330645812522833477
+      DentistJELLY_12: -4646258356137194289
+      DentistJELLY_13: -1893339782342996471
+      DentistJELLY_14: 342360264709138594
+      DentistJELLY_15: 7261615236014044000
+      DentistJELLY_16: -220489487044202683
+      DentistJELLY_17: -4995732021534905021
+      DentistJELLY_18: 6529232366636425771
+      DentistJELLY_19: -6622713478360302532
+      DentistJELLY_2: 3649630771228102113
+      DentistJELLY_20: -5753106312831365099
+      DentistJELLY_21: 4220713621267783025
+      DentistJELLY_22: -1006393320134598196
+      DentistJELLY_23: -7939838675732674567
+      DentistJELLY_24: -6717904232412958108
+      DentistJELLY_25: -7124261120777336619
+      DentistJELLY_26: 731799711859334934
+      DentistJELLY_27: -7870819211258779324
+      DentistJELLY_28: 5371743001329414596
+      DentistJELLY_29: -767247559271670545
+      DentistJELLY_3: -6967512380013801250
+      DentistJELLY_30: -5060415481437619992
+      DentistJELLY_31: -1551480781704909997
+      DentistJELLY_32: 6049821820542169158
+      DentistJELLY_33: -1874398057315664119
+      DentistJELLY_34: -411699765132523573
+      DentistJELLY_35: 6093366839298031178
+      DentistJELLY_36: 7050244399950276179
+      DentistJELLY_37: -6839723261149273857
+      DentistJELLY_38: -1659823185051183757
+      DentistJELLY_39: 6675991506218964478
+      DentistJELLY_4: -8869219368286024990
+      DentistJELLY_40: 2925886246348388582
+      DentistJELLY_41: -940867114745601339
+      DentistJELLY_42: -7203617271091937002
+      DentistJELLY_43: -5884203511627609840
+      DentistJELLY_44: 2690014163456090194
+      DentistJELLY_45: 7094677758340460469
+      DentistJELLY_46: 1342720146056764256
+      DentistJELLY_47: 9135700538294779323
+      DentistJELLY_48: -6261486205617760326
+      DentistJELLY_5: 3050469028970869092
+      DentistJELLY_6: -4889478235115687293
+      DentistJELLY_7: -3795565134720384037
+      DentistJELLY_8: 2518231754653813714
+      DentistJELLY_9: 5893038819896805152
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
