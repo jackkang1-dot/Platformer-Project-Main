@@ -1,9 +1,13 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
 /// Simple melee attack: press the attack key to damage every enemy inside a
 /// small circle in front of the player. Works with the new Input System.
+/// Each swing keeps hitting for a short moment (Swing Time), so enemies that walk
+/// into it still get hit, and an enemy that bumps into the player from the front
+/// mid-swing gets hit instead of hurting the player.
 /// Includes Console debug messages so you can see exactly where an attack fails.
 /// Optional attack sound.
 /// </summary>
@@ -13,6 +17,8 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private int attackDamage = 1;
     [SerializeField] private float attackRange = 0.6f;
     [SerializeField] private float attackCooldown = 0.4f;
+    [Tooltip("How long each swing keeps hitting, in seconds. Enemies that walk into the swing during this time still get hit, and enemies bumping into the player from the front get hit instead of hurting the player. Roughly match the attack animation.")]
+    [SerializeField] private float swingTime = 0.25f;
 
     [Header("Targeting")]
     [Tooltip("Empty child object placed in front of the player. It flips with the player automatically.")]
@@ -53,8 +59,14 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private bool debugLogs = true;
 
     private float nextAttackTime;
+    private float swingEndTime = -1f;
     private Animator anim;
     private AudioSource sfx;
+
+    // Enemies already hit by the current swing (each enemy is hit once per swing)
+    private readonly HashSet<GoombaEnemy> hitThisSwing = new HashSet<GoombaEnemy>();
+
+    bool Swinging => Time.time < swingEndTime;
 
     void Awake()
     {
@@ -82,12 +94,24 @@ public class PlayerAttack : MonoBehaviour
     void OnDisable()
     {
         attackInput.Disable();
+        swingEndTime = -1f; // a switched-off attack (for example after dying) stops swinging
     }
 
     void Update()
     {
-        if (!attackInput.WasPressedThisFrame()) return;
+        if (attackInput.WasPressedThisFrame())
+        {
+            TryStartSwing();
+        }
+        else if (Swinging)
+        {
+            // Keep hitting anything that walks into the swing
+            HitEnemiesInRange(false);
+        }
+    }
 
+    void TryStartSwing()
+    {
         Log("Attack key pressed.");
 
         if (Time.time < nextAttackTime)
@@ -97,9 +121,12 @@ public class PlayerAttack : MonoBehaviour
         }
 
         nextAttackTime = Time.time + attackCooldown;
+        swingEndTime = Time.time + swingTime;
+        hitThisSwing.Clear();
+
         PlayAttackSound();
         PlayAttackAnimation();
-        Attack();
+        HitEnemiesInRange(true);
     }
 
     void PlayAttackSound()
@@ -114,22 +141,23 @@ public class PlayerAttack : MonoBehaviour
         anim.SetTrigger(attackTrigger);
     }
 
-    void Attack()
+    // firstCheck is true on the frame the attack key is pressed, so the debug messages only print once per swing
+    void HitEnemiesInRange(bool firstCheck)
     {
         if (attackPoint == null)
         {
-            Debug.LogWarning("PlayerAttack: no Attack Point assigned. Drag your AttackPoint object into the Attack Point field.");
+            if (firstCheck) Debug.LogWarning("PlayerAttack: no Attack Point assigned. Drag your AttackPoint object into the Attack Point field.");
             return;
         }
 
         if (enemyLayers.value == 0)
         {
-            Debug.LogWarning("PlayerAttack: Enemy Layers is set to Nothing. Set it to your Enemy layer.");
+            if (firstCheck) Debug.LogWarning("PlayerAttack: Enemy Layers is set to Nothing. Set it to your Enemy layer.");
             return;
         }
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        Log($"Attack found {hits.Length} collider(s) in range.");
+        if (firstCheck) Log($"Attack found {hits.Length} collider(s) in range.");
 
         foreach (Collider2D hit in hits)
         {
@@ -138,14 +166,42 @@ public class PlayerAttack : MonoBehaviour
 
             if (enemy != null)
             {
-                enemy.TakeDamage(attackDamage);
-                Log($"Hit {enemy.name}.");
+                HitEnemy(enemy);
             }
-            else
+            else if (firstCheck)
             {
                 Log($"Found {hit.name}, but neither it nor its parents have a GoombaEnemy script.");
             }
         }
+    }
+
+    void HitEnemy(GoombaEnemy enemy)
+    {
+        // Each enemy only takes one hit per swing
+        if (!hitThisSwing.Add(enemy)) return;
+
+        enemy.TakeDamage(attackDamage);
+        Log($"Hit {enemy.name}.");
+    }
+
+    /// <summary>
+    /// Called by an enemy when it bumps into the player. If the player is mid-swing
+    /// and facing that enemy, the enemy takes the hit and the player is NOT hurt.
+    /// Returns true when the swing handled the bump.
+    /// </summary>
+    public bool TryHitOnContact(GoombaEnemy enemy)
+    {
+        if (!enabled || !Swinging || enemy == null) return false;
+
+        // Only enemies in front of the player (on the attack point's side) count
+        float facing = attackPoint != null
+            ? Mathf.Sign(attackPoint.position.x - transform.position.x)
+            : Mathf.Sign(transform.localScale.x);
+        float enemySide = enemy.transform.position.x - transform.position.x;
+        if (enemySide * facing < 0f) return false;
+
+        HitEnemy(enemy);
+        return true;
     }
 
     void Log(string message)

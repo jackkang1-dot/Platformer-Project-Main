@@ -509,7 +509,6 @@ MonoBehaviour:
 
 
 
-
     <size=56><b>Instructor/Producer</b></size>
 
     Tim
@@ -521,15 +520,14 @@ MonoBehaviour:
     Reid
 
     Vivienne
-
+    Hartman
 
 
     <size=56><b>Artists</b></size>
 
     Reid
 
-    Vivienne
-
+    Vivienne Hartman
 
 
     <size=56><b>Audio
@@ -541,23 +539,18 @@ MonoBehaviour:
     <size=56><b>Level Designer</b></size>
 
     Oscar
-
+    Hernandez
 
 
     <size=56><b>Programmer</b></size>
 
-    Jack
-    Kang
+    Jack Kang
 
 
 
 
-
-
-
-
-
-    <size=72>Thanks for playing!</size>'
+    <size=72>Thanks
+    for playing!</size>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

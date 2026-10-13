@@ -5,6 +5,7 @@ using UnityEngine;
 /// Works alongside the Player movement script, which still handles the first jump.
 /// Add it to the Player prefab with "Unlocked" OFF, then tick "Unlocked" on the
 /// Player in the levels where the double jump should be available.
+/// Each double jump replays the normal jump animation from the start.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerDoubleJump : MonoBehaviour
@@ -21,8 +22,10 @@ public class PlayerDoubleJump : MonoBehaviour
     [Tooltip("Grace period after leaving the ground where the normal jump still applies. Keep it the same as Coyote Time on the Player script.")]
     [SerializeField] private float coyoteTime = 0.1f;
 
-    [Header("Animation (optional)")]
-    [Tooltip("Name of a Trigger in the Animator to play when double jumping. Leave empty if there's no animation for it.")]
+    [Header("Animation")]
+    [Tooltip("Name of the jump state (the box) in the player's Animator, exactly as it appears there. The double jump replays it from the start. Leave empty to skip.")]
+    [SerializeField] private string jumpStateName = "Jump";
+    [Tooltip("Only if you make a SEPARATE double jump animation: the name of a Trigger in the Animator that plays it. When filled in, this is used instead of replaying the jump.")]
     [SerializeField] private string doubleJumpTrigger = "";
 
     private Rigidbody2D rb;
@@ -31,6 +34,8 @@ public class PlayerDoubleJump : MonoBehaviour
     private Animator anim;
     private int jumpsLeft;
     private float lastGroundedTime = -100f;
+    private int jumpStateHash;
+    private bool hasJumpState;
 
     // Lets other scripts (like a pickup) unlock the double jump during a level
     public bool Unlocked
@@ -50,6 +55,29 @@ public class PlayerDoubleJump : MonoBehaviour
     void Start()
     {
         jumpsLeft = extraJumps;
+        FindJumpState();
+    }
+
+    // Checks once that the Animator has the jump state, instead of filling the Console with warnings
+    void FindJumpState()
+    {
+        if (string.IsNullOrEmpty(jumpStateName) || !string.IsNullOrEmpty(doubleJumpTrigger)) return;
+        if (anim == null || anim.runtimeAnimatorController == null) return;
+
+        // Accept either the plain name ("Jump") or the full path ("Base Layer.Jump")
+        string[] names = { jumpStateName, "Base Layer." + jumpStateName };
+        foreach (string stateName in names)
+        {
+            int hash = Animator.StringToHash(stateName);
+            if (anim.HasState(0, hash))
+            {
+                jumpStateHash = hash;
+                hasJumpState = true;
+                return;
+            }
+        }
+
+        Debug.LogWarning($"PlayerDoubleJump: the player's Animator has no state named '{jumpStateName}'. Type the jump state's exact name (as shown on its box in the Animator window) into Jump State Name.");
     }
 
     void Update()
@@ -75,10 +103,21 @@ public class PlayerDoubleJump : MonoBehaviour
 
         jumpsLeft--;
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, doubleJumpSpeed);
+        PlayDoubleJumpAnimation();
+    }
 
-        if (anim != null && anim.runtimeAnimatorController != null && !string.IsNullOrEmpty(doubleJumpTrigger))
+    void PlayDoubleJumpAnimation()
+    {
+        if (anim == null || anim.runtimeAnimatorController == null) return;
+
+        if (!string.IsNullOrEmpty(doubleJumpTrigger))
         {
             anim.SetTrigger(doubleJumpTrigger);
+        }
+        else if (hasJumpState)
+        {
+            // Restart the normal jump animation from its first frame
+            anim.Play(jumpStateHash, 0, 0f);
         }
     }
 }

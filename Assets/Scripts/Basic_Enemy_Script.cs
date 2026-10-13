@@ -6,7 +6,8 @@ using UnityEngine.UI;
 /// Classic "Goomba-style" patrol enemy for 2D platformers.
 /// Walks back and forth within a set patrol range, turns around at walls/ledges,
 /// and can be defeated by stomping on it from above or by the player's attack.
-/// Damages the player on side contact.
+/// Damages the player on side contact, unless the player is mid-swing and facing it
+/// (then this enemy takes the hit instead).
 /// Regular enemies keep Max Health at 1 (any hit defeats them). A boss gets more
 /// health, an optional health bar, and can add the EnemyShooter script to shoot.
 /// </summary>
@@ -292,6 +293,10 @@ public class GoombaEnemy : MonoBehaviour
         }
         else
         {
+            // Walking into the player's swing gets this enemy hit, instead of hurting the player
+            PlayerAttack attack = collision.gameObject.GetComponent<PlayerAttack>();
+            if (attack != null && attack.TryHitOnContact(this)) return;
+
             DamagePlayer(collision.gameObject);
         }
     }

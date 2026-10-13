@@ -432,6 +432,7 @@ MonoBehaviour:
   doubleJumpSpeed: 7
   extraJumps: 1
   coyoteTime: 0.1
+  jumpStateName: PlayerJumpAnimation
   doubleJumpTrigger: 
 --- !u!114 &3826394368331263200
 MonoBehaviour:
