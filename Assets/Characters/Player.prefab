@@ -331,16 +331,32 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  attackAction:
+  attackInput:
     m_Name: Attack
     m_Type: 1
     m_ExpectedControlType: 
-    m_Id: e849d8a5-6a5c-426d-919f-1bdd8077adae
+    m_Id: 5cdaf154-1822-41da-8f56-8e17b1651d4e
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: dd182589-c784-4035-bd9c-0e21e8188fab
+      m_Id: b1e9c6f9-784d-4ae2-9aee-07e66b290cdb
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Attack
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ea444821-0387-4388-8701-424aac81e865
+      m_Path: <Keyboard>/q
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Attack
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b68f5d87-e7ef-4c32-af80-9d10af93234a
       m_Path: <Keyboard>/j
       m_Interactions: 
       m_Processors: 
@@ -352,7 +368,7 @@ MonoBehaviour:
   attackTrigger: attack
   attackSound: {fileID: 8300000, guid: 41b1f9ddefd46a1459d3e0a240df85d4, type: 3}
   attackSoundVolume: 1
-  debugLogs: 1
+  debugLogs: 0
 --- !u!114 &4170005427704764652
 MonoBehaviour:
   m_ObjectHideFlags: 0
