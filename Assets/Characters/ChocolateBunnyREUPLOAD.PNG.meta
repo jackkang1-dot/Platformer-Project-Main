@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: bee18d235afeeae4fb510e15a7013cc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1118059522589306639
+    second: ChocolateBunnyREUPLOAD_0
+  - first:
+      213: 2568456620912216639
+    second: ChocolateBunnyREUPLOAD_1
+  - first:
+      213: 7436605582319981918
+    second: ChocolateBunnyREUPLOAD_2
+  - first:
+      213: 6624287931951876788
+    second: ChocolateBunnyREUPLOAD_3
+  - first:
+      213: 3133609867494184147
+    second: ChocolateBunnyREUPLOAD_4
+  - first:
+      213: 4839397464215223660
+    second: ChocolateBunnyREUPLOAD_5
+  - first:
+      213: 998644292136376847
+    second: ChocolateBunnyREUPLOAD_6
+  - first:
+      213: -4014419048099589888
+    second: ChocolateBunnyREUPLOAD_7
+  - first:
+      213: 7434228971942887772
+    second: ChocolateBunnyREUPLOAD_8
+  - first:
+      213: -5879688255265199504
+    second: ChocolateBunnyREUPLOAD_9
+  - first:
+      213: 2277435039192913383
+    second: ChocolateBunnyREUPLOAD_10
+  - first:
+      213: -3168760765106214537
+    second: ChocolateBunnyREUPLOAD_11
+  - first:
+      213: -2420576023652016079
+    second: ChocolateBunnyREUPLOAD_12
+  - first:
+      213: -6432750927728805937
+    second: ChocolateBunnyREUPLOAD_13
+  - first:
+      213: -5750718231497088428
+    second: ChocolateBunnyREUPLOAD_14
+  - first:
+      213: -2317699727241633894
+    second: ChocolateBunnyREUPLOAD_15
+  - first:
+      213: 9047307680986777126
+    second: ChocolateBunnyREUPLOAD_16
+  - first:
+      213: 1326272484745505134
+    second: ChocolateBunnyREUPLOAD_17
+  - first:
+      213: -6597416477546848259
+    second: ChocolateBunnyREUPLOAD_18
+  - first:
+      213: 1710890563523327298
+    second: ChocolateBunnyREUPLOAD_19
+  - first:
+      213: 6935380528881145585
+    second: ChocolateBunnyREUPLOAD_20
+  - first:
+      213: 3032360199531575032
+    second: ChocolateBunnyREUPLOAD_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f05256b9cadb70f0800000000000000
+      internalID: -1118059522589306639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 79
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a097e30bdf4a320800000000000000
+      internalID: 2568456620912216639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 79
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e559ed45061243760800000000000000
+      internalID: 7436605582319981918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 79
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba06e1f6c23eeb50800000000000000
+      internalID: 6624287931951876788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 79
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d456a86291dc7b20800000000000000
+      internalID: 3133609867494184147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 79
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d797d7a5ef82340800000000000000
+      internalID: 4839397464215223660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a92c151b5ebdd00800000000000000
+      internalID: 998644292136376847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0015672252be948c0800000000000000
+      internalID: -4014419048099589888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51c29b9cdfab2760800000000000000
+      internalID: 7434228971942887772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 4
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07aa1ea0fa6276ea0800000000000000
+      internalID: -5879688255265199504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 25
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e51f1e0a131b9f10800000000000000
+      internalID: 2277435039192913383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 48
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77926a97fdc4604d0800000000000000
+      internalID: -3168760765106214537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 57
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130e4666ee2686ed0800000000000000
+      internalID: -2420576023652016079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 45
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7f8280d174ab6a0800000000000000
+      internalID: -6432750927728805937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 54
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452e040bc385130b0800000000000000
+      internalID: -5750718231497088428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f1eb5b060e5dfd0800000000000000
+      internalID: -2317699727241633894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 39
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62641e2b66e7e8d70800000000000000
+      internalID: 9047307680986777126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6961a84ccdd76210800000000000000
+      internalID: 1326272484745505134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 12
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffd2841ba44174a0800000000000000
+      internalID: -6597416477546848259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245306027ed4eb710800000000000000
+      internalID: 1710890563523327298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f61f1688db6f3060800000000000000
+      internalID: 6935380528881145585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBunnyREUPLOAD_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6bc1c098b151a20800000000000000
+      internalID: 3032360199531575032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChocolateBunnyREUPLOAD_0: -1118059522589306639
+      ChocolateBunnyREUPLOAD_1: 2568456620912216639
+      ChocolateBunnyREUPLOAD_10: 2277435039192913383
+      ChocolateBunnyREUPLOAD_11: -3168760765106214537
+      ChocolateBunnyREUPLOAD_12: -2420576023652016079
+      ChocolateBunnyREUPLOAD_13: -6432750927728805937
+      ChocolateBunnyREUPLOAD_14: -5750718231497088428
+      ChocolateBunnyREUPLOAD_15: -2317699727241633894
+      ChocolateBunnyREUPLOAD_16: 9047307680986777126
+      ChocolateBunnyREUPLOAD_17: 1326272484745505134
+      ChocolateBunnyREUPLOAD_18: -6597416477546848259
+      ChocolateBunnyREUPLOAD_19: 1710890563523327298
+      ChocolateBunnyREUPLOAD_2: 7436605582319981918
+      ChocolateBunnyREUPLOAD_20: 6935380528881145585
+      ChocolateBunnyREUPLOAD_21: 3032360199531575032
+      ChocolateBunnyREUPLOAD_3: 6624287931951876788
+      ChocolateBunnyREUPLOAD_4: 3133609867494184147
+      ChocolateBunnyREUPLOAD_5: 4839397464215223660
+      ChocolateBunnyREUPLOAD_6: 998644292136376847
+      ChocolateBunnyREUPLOAD_7: -4014419048099589888
+      ChocolateBunnyREUPLOAD_8: 7434228971942887772
+      ChocolateBunnyREUPLOAD_9: -5879688255265199504
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
