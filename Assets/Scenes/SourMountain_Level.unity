@@ -156877,7 +156877,7 @@ Tilemap:
     m_Data: {fileID: -8099877729569602295, guid: 97d38764f5b952b428809628bba7c229, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 6623
+    m_RefCount: 6508
     m_Data:
       e00: 1
       e01: 0
@@ -179487,11 +179487,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BEWARE OF RISING PUS LEVELS!!! & DOUBLE JUMP UNLOCKED
-
-
-    Press SPACEBAR
-    twice to Double Jump'
+  m_text: "\tBEWARE OF RISING PUS LEVELS!!! & DOUBLE JUMP UNLOCKED\n\n\tKEYBOARD:\t\tor\t\tCONTROLLER:\nPress
+    L Shift to Dash\t\t\t\tB-Button/RT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

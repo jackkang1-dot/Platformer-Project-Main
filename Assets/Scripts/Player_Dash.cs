@@ -46,8 +46,11 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private Collider2D feetCollider;
 
     [Header("Input")]
-    [Tooltip("Defaults to Left Shift. Change the binding here in the Inspector if you like.")]
+    [Tooltip("Defaults to Left Shift. Change the binding here in the Inspector if you like. If there's no controller binding here, B and the right trigger on a controller are added automatically.")]
     [SerializeField] private InputAction dashAction = new InputAction("Dash", InputActionType.Button, "<Keyboard>/leftShift");
+
+    // Controller buttons added when the dash has no controller binding: B and the right trigger on an Xbox controller
+    static readonly string[] ControllerDashButtons = { "<Gamepad>/buttonEast", "<Gamepad>/rightTrigger" };
 
     [Header("Animation")]
     [Tooltip("Name of the Trigger parameter in the player's Animator that plays the dash animation (case-sensitive).")]
@@ -109,7 +112,19 @@ public class PlayerDash : MonoBehaviour
     {
         // Safety net: if the Inspector copy of the action has no binding, restore Left Shift
         if (dashAction.bindings.Count == 0) dashAction.AddBinding("<Keyboard>/leftShift");
+        AddControllerBindingsIfMissing(dashAction, ControllerDashButtons);
         dashAction.Enable();
+    }
+
+    // Adds controller buttons unless the action already has one, so a controller works without any Inspector setup
+    static void AddControllerBindingsIfMissing(InputAction action, string[] paths)
+    {
+        foreach (InputBinding binding in action.bindings)
+        {
+            if (!string.IsNullOrEmpty(binding.path) && binding.path.StartsWith("<Gamepad>")) return;
+        }
+
+        foreach (string path in paths) action.AddBinding(path);
     }
 
     void OnDisable()

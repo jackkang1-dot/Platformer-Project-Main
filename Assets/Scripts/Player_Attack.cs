@@ -27,8 +27,11 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private LayerMask enemyLayers;
 
     [Header("Input")]
-    [Tooltip("Attack controls. Defaults to Left Mouse Button, Q and J (any of them works). Add, remove or change bindings here in the Inspector.")]
+    [Tooltip("Attack controls. Defaults to Left Mouse Button, Q and J (any of them works). Add, remove or change bindings here in the Inspector. If there's no controller binding here, X on a controller is added automatically.")]
     [SerializeField] private InputAction attackInput = CreateDefaultAttackInput();
+
+    // Controller button added when the attack has no controller binding: X on an Xbox controller
+    const string ControllerAttackButton = "<Gamepad>/buttonWest";
 
     static InputAction CreateDefaultAttackInput()
     {
@@ -42,6 +45,17 @@ public class PlayerAttack : MonoBehaviour
         action.AddBinding("<Mouse>/leftButton");
         action.AddBinding("<Keyboard>/q");
         action.AddBinding("<Keyboard>/j");
+    }
+
+    // Adds the controller button unless the action already has one, so a controller works without any Inspector setup
+    static void AddControllerBindingIfMissing(InputAction action, string path)
+    {
+        foreach (InputBinding binding in action.bindings)
+        {
+            if (!string.IsNullOrEmpty(binding.path) && binding.path.StartsWith("<Gamepad>")) return;
+        }
+
+        action.AddBinding(path);
     }
 
     [Header("Animation")]
@@ -88,6 +102,7 @@ public class PlayerAttack : MonoBehaviour
             Log("Attack Input had no bindings, so Left Mouse Button, Q and J were added automatically.");
         }
 
+        AddControllerBindingIfMissing(attackInput, ControllerAttackButton);
         attackInput.Enable();
     }
 

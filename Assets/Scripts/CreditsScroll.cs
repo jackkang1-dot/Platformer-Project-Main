@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 /// Scrolls a block of credits text up the screen like a movie credit reel.
 /// Put it on the TextMeshPro text object (inside a Canvas) in the Credits scene.
 /// It starts just below the screen, rolls up until the last line is gone,
-/// then loads the main menu. Hold any key or the mouse button to speed it up;
-/// press Esc to skip straight to the menu.
+/// then loads the main menu. Hold any key, the mouse button, or A/X/Y/right trigger
+/// on a controller to speed it up; press Esc, or Start/B on a controller, to skip
+/// straight to the menu.
 /// </summary>
 [RequireComponent(typeof(RectTransform))]
 public class CreditsScroll : MonoBehaviour
@@ -62,8 +63,12 @@ public class CreditsScroll : MonoBehaviour
 
         Keyboard keyboard = Keyboard.current;
         Mouse mouse = Mouse.current;
+        Gamepad gamepad = Gamepad.current;
 
-        if (keyboard != null && keyboard.escapeKey.wasPressedThisFrame)
+        // Skip: Esc on the keyboard, or Start (Menu) or B on a controller
+        bool skip = (keyboard != null && keyboard.escapeKey.wasPressedThisFrame) ||
+                    (gamepad != null && (gamepad.startButton.wasPressedThisFrame || gamepad.buttonEast.wasPressedThisFrame));
+        if (skip)
         {
             Leave();
             return;
@@ -71,8 +76,11 @@ public class CreditsScroll : MonoBehaviour
 
         if (rt.anchoredPosition.y < endY)
         {
+            // Speed up: hold any key, the mouse button, or A, X, Y or the right trigger on a controller
             bool fastForward = (keyboard != null && keyboard.anyKey.isPressed) ||
-                               (mouse != null && mouse.leftButton.isPressed);
+                               (mouse != null && mouse.leftButton.isPressed) ||
+                               (gamepad != null && (gamepad.buttonSouth.isPressed || gamepad.buttonWest.isPressed ||
+                                                    gamepad.buttonNorth.isPressed || gamepad.rightTrigger.isPressed));
 
             float speed = scrollSpeed * (fastForward ? fastForwardMultiplier : 1f);
             rt.anchoredPosition += Vector2.up * speed * Time.deltaTime;
