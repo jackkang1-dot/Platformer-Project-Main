@@ -247,12 +247,12 @@ TextureImporter:
       name: DentistJELLY_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 303
-        width: 13
+        x: 0
+        y: 304
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,11 +270,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 268
-        width: 33
-        height: 30
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: DentistJELLY_2
       rect:
         serializedVersion: 2
-        x: 37
+        x: 38
         y: 266
-        width: 34
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: DentistJELLY_3
       rect:
         serializedVersion: 2
-        x: 78
-        y: 265
-        width: 23
-        height: 30
+        x: 76
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: DentistJELLY_4
       rect:
         serializedVersion: 2
-        x: 118
-        y: 265
-        width: 22
-        height: 31
+        x: 114
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: DentistJELLY_5
       rect:
         serializedVersion: 2
-        x: 151
-        y: 267
+        x: 152
+        y: 266
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -379,12 +379,12 @@ TextureImporter:
       name: DentistJELLY_6
       rect:
         serializedVersion: 2
-        x: 189
-        y: 265
+        x: 190
+        y: 266
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -401,12 +401,12 @@ TextureImporter:
       name: DentistJELLY_7
       rect:
         serializedVersion: 2
-        x: 231
-        y: 265
-        width: 23
-        height: 30
+        x: 228
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: DentistJELLY_8
       rect:
         serializedVersion: 2
-        x: 272
-        y: 265
-        width: 21
-        height: 31
+        x: 266
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: DentistJELLY_9
       rect:
         serializedVersion: 2
-        x: 4
-        y: 227
-        width: 23
-        height: 29
+        x: 0
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: DentistJELLY_10
       rect:
         serializedVersion: 2
-        x: 42
-        y: 227
-        width: 23
-        height: 29
+        x: 38
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -489,12 +489,12 @@ TextureImporter:
       name: DentistJELLY_11
       rect:
         serializedVersion: 2
-        x: 78
-        y: 227
-        width: 27
-        height: 34
+        x: 76
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -511,12 +511,12 @@ TextureImporter:
       name: DentistJELLY_12
       rect:
         serializedVersion: 2
-        x: 116
-        y: 227
-        width: 27
-        height: 34
+        x: 114
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -533,12 +533,12 @@ TextureImporter:
       name: DentistJELLY_13
       rect:
         serializedVersion: 2
-        x: 154
-        y: 227
-        width: 27
-        height: 34
+        x: 152
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -555,12 +555,12 @@ TextureImporter:
       name: DentistJELLY_14
       rect:
         serializedVersion: 2
-        x: 192
-        y: 227
-        width: 28
-        height: 34
+        x: 190
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -577,12 +577,12 @@ TextureImporter:
       name: DentistJELLY_15
       rect:
         serializedVersion: 2
-        x: 232
-        y: 227
-        width: 23
-        height: 29
+        x: 228
+        y: 228
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -599,12 +599,12 @@ TextureImporter:
       name: DentistJELLY_16
       rect:
         serializedVersion: 2
-        x: 8
-        y: 189
-        width: 15
-        height: 34
+        x: 0
+        y: 190
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -621,12 +621,12 @@ TextureImporter:
       name: DentistJELLY_17
       rect:
         serializedVersion: 2
-        x: 44
-        y: 189
-        width: 17
-        height: 34
+        x: 38
+        y: 190
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -643,12 +643,12 @@ TextureImporter:
       name: DentistJELLY_18
       rect:
         serializedVersion: 2
-        x: 7
-        y: 151
-        width: 14
+        x: 0
+        y: 152
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -665,12 +665,12 @@ TextureImporter:
       name: DentistJELLY_19
       rect:
         serializedVersion: 2
-        x: 42
-        y: 151
-        width: 19
-        height: 31
+        x: 38
+        y: 152
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: DentistJELLY_20
       rect:
         serializedVersion: 2
-        x: 81
-        y: 151
-        width: 21
-        height: 31
+        x: 76
+        y: 152
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -709,12 +709,12 @@ TextureImporter:
       name: DentistJELLY_21
       rect:
         serializedVersion: 2
-        x: 119
-        y: 151
-        width: 26
-        height: 31
+        x: 114
+        y: 152
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -731,12 +731,12 @@ TextureImporter:
       name: DentistJELLY_22
       rect:
         serializedVersion: 2
-        x: 157
-        y: 151
-        width: 26
-        height: 31
+        x: 152
+        y: 152
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -753,12 +753,12 @@ TextureImporter:
       name: DentistJELLY_23
       rect:
         serializedVersion: 2
-        x: 195
-        y: 151
-        width: 26
-        height: 31
+        x: 190
+        y: 152
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -775,12 +775,12 @@ TextureImporter:
       name: DentistJELLY_24
       rect:
         serializedVersion: 2
-        x: 233
-        y: 151
-        width: 26
-        height: 31
+        x: 228
+        y: 152
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -797,12 +797,12 @@ TextureImporter:
       name: DentistJELLY_25
       rect:
         serializedVersion: 2
-        x: 274
-        y: 151
-        width: 20
+        x: 266
+        y: 152
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -819,12 +819,12 @@ TextureImporter:
       name: DentistJELLY_26
       rect:
         serializedVersion: 2
-        x: 7
-        y: 113
-        width: 14
+        x: 0
+        y: 114
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -841,12 +841,12 @@ TextureImporter:
       name: DentistJELLY_27
       rect:
         serializedVersion: 2
-        x: 42
-        y: 113
-        width: 19
-        height: 31
+        x: 38
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -863,12 +863,12 @@ TextureImporter:
       name: DentistJELLY_28
       rect:
         serializedVersion: 2
-        x: 81
-        y: 113
-        width: 21
-        height: 31
+        x: 76
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -885,12 +885,12 @@ TextureImporter:
       name: DentistJELLY_29
       rect:
         serializedVersion: 2
-        x: 118
-        y: 113
-        width: 27
-        height: 29
+        x: 114
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -907,12 +907,12 @@ TextureImporter:
       name: DentistJELLY_30
       rect:
         serializedVersion: 2
-        x: 151
-        y: 113
-        width: 34
-        height: 27
+        x: 152
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -929,12 +929,12 @@ TextureImporter:
       name: DentistJELLY_31
       rect:
         serializedVersion: 2
-        x: 189
-        y: 113
-        width: 34
-        height: 27
+        x: 190
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -951,12 +951,12 @@ TextureImporter:
       name: DentistJELLY_32
       rect:
         serializedVersion: 2
-        x: 227
-        y: 113
-        width: 34
-        height: 27
+        x: 228
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -973,12 +973,12 @@ TextureImporter:
       name: DentistJELLY_33
       rect:
         serializedVersion: 2
-        x: 265
-        y: 113
-        width: 34
-        height: 27
+        x: 266
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -995,12 +995,12 @@ TextureImporter:
       name: DentistJELLY_34
       rect:
         serializedVersion: 2
-        x: 303
-        y: 113
-        width: 33
-        height: 27
+        x: 304
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1018,11 +1018,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 75
-        width: 33
-        height: 27
+        y: 76
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1039,12 +1039,12 @@ TextureImporter:
       name: DentistJELLY_36
       rect:
         serializedVersion: 2
-        x: 42
-        y: 75
-        width: 27
-        height: 29
+        x: 38
+        y: 76
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1061,12 +1061,12 @@ TextureImporter:
       name: DentistJELLY_37
       rect:
         serializedVersion: 2
-        x: 81
-        y: 75
-        width: 21
-        height: 31
+        x: 76
+        y: 76
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1083,12 +1083,12 @@ TextureImporter:
       name: DentistJELLY_38
       rect:
         serializedVersion: 2
-        x: 118
-        y: 75
-        width: 19
-        height: 31
+        x: 114
+        y: 76
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1106,11 +1106,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 37
-        width: 33
-        height: 9
+        y: 38
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1127,12 +1127,12 @@ TextureImporter:
       name: DentistJELLY_40
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 22
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1149,12 +1149,12 @@ TextureImporter:
       name: DentistJELLY_41
       rect:
         serializedVersion: 2
-        x: 52
+        x: 38
         y: 0
-        width: 19
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1171,12 +1171,12 @@ TextureImporter:
       name: DentistJELLY_42
       rect:
         serializedVersion: 2
-        x: 90
+        x: 76
         y: 0
-        width: 19
-        height: 28
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1193,12 +1193,12 @@ TextureImporter:
       name: DentistJELLY_43
       rect:
         serializedVersion: 2
-        x: 122
-        y: 1
-        width: 23
-        height: 29
+        x: 114
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1215,12 +1215,12 @@ TextureImporter:
       name: DentistJELLY_44
       rect:
         serializedVersion: 2
-        x: 154
+        x: 152
         y: 0
-        width: 27
-        height: 33
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1237,12 +1237,12 @@ TextureImporter:
       name: DentistJELLY_45
       rect:
         serializedVersion: 2
-        x: 192
+        x: 190
         y: 0
-        width: 27
-        height: 33
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1259,12 +1259,12 @@ TextureImporter:
       name: DentistJELLY_46
       rect:
         serializedVersion: 2
-        x: 230
+        x: 228
         y: 0
-        width: 27
-        height: 33
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1281,12 +1281,12 @@ TextureImporter:
       name: DentistJELLY_47
       rect:
         serializedVersion: 2
-        x: 268
+        x: 266
         y: 0
-        width: 28
-        height: 33
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1303,12 +1303,12 @@ TextureImporter:
       name: DentistJELLY_48
       rect:
         serializedVersion: 2
-        x: 308
+        x: 304
         y: 0
-        width: 23
-        height: 28
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1325,7 +1325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1e1acf4ce1ea0684ba564e6ba75ea3ec
     internalID: 0
     vertices: []
     indices: 
@@ -1333,7 +1333,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":64.0,"y":64.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":6.0,"y":6.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       DentistJELLY_0: 8308683706659455042
       DentistJELLY_1: 4135248924774954220

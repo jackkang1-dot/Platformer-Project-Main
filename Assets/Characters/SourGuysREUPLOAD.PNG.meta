@@ -145,12 +145,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 39
-        width: 31
-        height: 9
+        x: 0
+        y: 40
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 39
-        width: 29
-        height: 12
+        x: 40
+        y: 40
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 39
-        width: 25
-        height: 15
+        x: 80
+        y: 40
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_3
       rect:
         serializedVersion: 2
-        x: 119
-        y: 12
-        width: 33
-        height: 42
+        x: 120
+        y: 40
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_4
       rect:
         serializedVersion: 2
-        x: 167
-        y: 39
-        width: 25
-        height: 15
+        x: 160
+        y: 40
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_5
       rect:
         serializedVersion: 2
-        x: 203
-        y: 39
-        width: 29
-        height: 12
+        x: 200
+        y: 40
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_6
       rect:
         serializedVersion: 2
-        x: 46
-        y: 7
-        width: 9
-        height: 12
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_7
       rect:
         serializedVersion: 2
-        x: 55
-        y: 10
-        width: 9
-        height: 9
+        x: 40
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_8
       rect:
         serializedVersion: 2
-        x: 63
-        y: 5
-        width: 9
-        height: 10
+        x: 80
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: SourGuysREUPLOAD_9
       rect:
         serializedVersion: 2
-        x: 79
-        y: 9
-        width: 9
-        height: 7
+        x: 120
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,121 +361,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: SourGuysREUPLOAD_10
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 12
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e482b26a590ce8070800000000000000
-      internalID: 8110631727911348302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SourGuysREUPLOAD_11
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 15
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc667ac73bc275190800000000000000
-      internalID: -7973855465834060083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SourGuysREUPLOAD_12
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 10
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c29059b29130f090800000000000000
-      internalID: -8002842031593319738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SourGuysREUPLOAD_13
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 31
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7530b30a4a3a66d90800000000000000
-      internalID: -7104811434672192681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SourGuysREUPLOAD_14
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 2
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a35fd32b770580de0800000000000000
-      internalID: -1366754011885210310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 95dcfa75ebea9ae4ca15d03622206efa
     internalID: 0
     vertices: []
     indices: 
@@ -483,15 +373,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":64.0,"y":64.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":8.0,"y":8.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SourGuysREUPLOAD_0: -330712154773523855
       SourGuysREUPLOAD_1: -7772838026938639346
-      SourGuysREUPLOAD_10: 8110631727911348302
-      SourGuysREUPLOAD_11: -7973855465834060083
-      SourGuysREUPLOAD_12: -8002842031593319738
-      SourGuysREUPLOAD_13: -7104811434672192681
-      SourGuysREUPLOAD_14: -1366754011885210310
       SourGuysREUPLOAD_2: 6043541473356897412
       SourGuysREUPLOAD_3: -1155092080547192749
       SourGuysREUPLOAD_4: -3542673069368239563
