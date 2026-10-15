@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 3826394368331263200}
   - component: {fileID: 1206440699401915293}
   - component: {fileID: 287412073658451605}
+  - component: {fileID: 630661781702929457}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -234,7 +235,7 @@ Animator:
   m_GameObject: {fileID: 7101892323675194848}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 90cfc0afd204e684eb09344965ff88c8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 83b38c3426a4f3e4cb701dfa389de8d2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -309,6 +310,7 @@ MonoBehaviour:
   invincibilityDuration: 1
   restartLevelOnDeath: 1
   restartDelay: 1.5
+  deathTrigger: die
   hurtSound: {fileID: 0}
   deathSound: {fileID: 8300000, guid: 76f53d110957ad44cadba8e5ec8f29ef, type: 3}
   soundVolume: 1
@@ -429,11 +431,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdc615f2c57d95e4abf74da61dfdd18b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDoubleJump
-  unlocked: 0
+  unlocked: 1
   doubleJumpSpeed: 7
   extraJumps: 1
   coyoteTime: 0.1
-  jumpStateName: PlayerJumpAnimation
+  jumpStateName: NewPlayerJump
   doubleJumpTrigger: 
 --- !u!114 &3826394368331263200
 MonoBehaviour:
@@ -482,3 +484,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerJumpAnimation
   jumpingBool: jumping
   fallDelay: 0.1
+--- !u!114 &630661781702929457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101892323675194848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5f3db1084c13c4fa9a5d351f1636bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWallJumpAnimation
+  wallJumpStateName: NewPlayerWallJump

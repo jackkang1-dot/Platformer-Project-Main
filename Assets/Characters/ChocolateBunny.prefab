@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2329025144751639988}
   - component: {fileID: 5176053131353349257}
   m_Layer: 0
-  m_Name: Basic Enemy #3
+  m_Name: ChocolateBunny
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GoombaEnemy
   moveSpeed: 2
   startMovingRight: 0
-  artFacesRight: 0
+  artFacesRight: 1
   patrolRange: 3
   groundLayer:
     serializedVersion: 2
@@ -222,7 +222,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8992213607055332956, guid: 3ff3725875d6abf4e82efcd8a35cdd75, type: 3}
+  m_Sprite: {fileID: -4736605856027973873, guid: 6de88e5ccb7108b419a5f8f22b4f4aa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

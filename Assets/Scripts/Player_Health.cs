@@ -28,8 +28,10 @@ public class PlayerHealth : MonoBehaviour
     [Header("Death")]
     [Tooltip("Reload the current level after the player dies.")]
     public bool restartLevelOnDeath = true;
-    [Tooltip("Seconds to wait after dying before the level restarts. Keep it at least as long as the Death Sound, or the sound gets cut off.")]
+    [Tooltip("Seconds to wait after dying before the level restarts. Keep it at least as long as the death animation and Death Sound, or they get cut off.")]
     public float restartDelay = 1.5f;
+    [Tooltip("Name of the Trigger parameter in the player's Animator that plays the death animation (case-sensitive). Leave empty if there's no death animation.")]
+    public string deathTrigger = "die";
 
     [Header("Sounds (optional)")]
     [Tooltip("Plays when the player takes damage but survives. Leave empty for no sound.")]
@@ -40,12 +42,14 @@ public class PlayerHealth : MonoBehaviour
     public float soundVolume = 1f;
 
     private SpriteRenderer sr;
+    private Animator anim;
     private AudioSource sfx;
 
     void Awake()
     {
-        // Searches this object and its children, in case the sprite lives on a child object
+        // Searches this object and its children, in case the sprite or Animator lives on a child object
         sr = GetComponentInChildren<SpriteRenderer>();
+        anim = GetComponentInChildren<Animator>();
 
         // Its own speaker for hurt/death sounds
         sfx = gameObject.AddComponent<AudioSource>();
@@ -135,8 +139,11 @@ public class PlayerHealth : MonoBehaviour
         isDead = true;
         Debug.Log("Player has died.");
 
+        // Stop any hit-flicker so the death animation stays visible
+        isInvincible = false;
         if (sr != null) sr.enabled = true;
 
+        PlayDeathAnimation();
         PlaySound(deathSound);
 
         // Take away control: switch off every other script on the player (movement, attack, etc.)
@@ -155,6 +162,33 @@ public class PlayerHealth : MonoBehaviour
         if (restartLevelOnDeath)
         {
             Invoke(nameof(RestartLevel), restartDelay);
+        }
+    }
+
+    void PlayDeathAnimation()
+    {
+        if (anim == null || anim.runtimeAnimatorController == null || string.IsNullOrEmpty(deathTrigger)) return;
+
+        bool hasDeathTrigger = false;
+
+        foreach (AnimatorControllerParameter p in anim.parameters)
+        {
+            // Clear any attack/dash triggers still waiting, so they can't interrupt the death animation
+            if (p.type == AnimatorControllerParameterType.Trigger && p.name != deathTrigger) anim.ResetTrigger(p.name);
+
+            // Stop the running animation from being requested
+            if (p.type == AnimatorControllerParameterType.Bool) anim.SetBool(p.name, false);
+
+            if (p.name == deathTrigger && p.type == AnimatorControllerParameterType.Trigger) hasDeathTrigger = true;
+        }
+
+        if (hasDeathTrigger)
+        {
+            anim.SetTrigger(deathTrigger);
+        }
+        else
+        {
+            Debug.LogWarning($"PlayerHealth: the player's Animator has no Trigger called '{deathTrigger}'. Add it in the Animator's Parameters tab, or clear the Death Trigger field.");
         }
     }
 

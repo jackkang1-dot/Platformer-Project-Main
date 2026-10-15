@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy#3Run
+  m_Name: ChocolateBunnyRun
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -34,7 +34,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy#3Death
+  m_Name: ChocolateBunnyDeath
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -59,7 +59,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy#3
+  m_Name: ChocolateBunny
   serializedVersion: 6
   m_AnimatorParameters:
   - m_Name: die
