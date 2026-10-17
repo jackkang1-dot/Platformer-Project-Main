@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5843783686408955223}
   - component: {fileID: 2022614708072580239}
   - component: {fileID: 4897074040258963856}
+  - component: {fileID: 5982535316789336436}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -107,3 +108,15 @@ MonoBehaviour:
     Time: 0
     Smoothing: 0
     IgnoreY: 0
+--- !u!114 &5982535316789336436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387796670347422307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8a05de0ac134f4f9d01bef6b9da077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachinePixelPerfect
