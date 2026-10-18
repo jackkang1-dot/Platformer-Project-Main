@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -161,11 +161,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 147
-        width: 33
-        height: 33
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: SourBG3_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 147
-        width: 34
-        height: 33
+        x: 39
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: SourBG3_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 147
-        width: 34
-        height: 33
+        x: 77
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: SourBG3_3
       rect:
         serializedVersion: 2
-        x: 115
-        y: 147
-        width: 33
-        height: 33
+        x: 116
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,11 +249,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 110
-        width: 33
+        y: 111
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: SourBG3_5
       rect:
         serializedVersion: 2
-        x: 38
-        y: 110
-        width: 34
+        x: 39
+        y: 111
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,11 +293,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 76
-        y: 110
-        width: 34
-        height: 19
+        y: 111
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,11 +315,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 116
-        y: 126
+        y: 111
         width: 32
-        height: 18
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,11 +337,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 73
-        width: 33
-        height: 31
+        y: 74
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,11 +359,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 39
-        y: 77
+        y: 74
         width: 32
-        height: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: SourBG3_10
       rect:
         serializedVersion: 2
-        x: 76
-        y: 73
-        width: 34
-        height: 34
+        x: 77
+        y: 74
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: SourBG3_11
       rect:
         serializedVersion: 2
-        x: 115
-        y: 73
-        width: 33
-        height: 34
+        x: 116
+        y: 74
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,11 +425,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 36
-        width: 33
-        height: 34
+        y: 37
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: SourBG3_13
       rect:
         serializedVersion: 2
-        x: 38
-        y: 36
-        width: 34
-        height: 34
+        x: 39
+        y: 37
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: SourBG3_14
       rect:
         serializedVersion: 2
-        x: 76
-        y: 36
-        width: 34
+        x: 77
+        y: 37
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: SourBG3_15
       rect:
         serializedVersion: 2
-        x: 115
-        y: 36
-        width: 33
+        x: 116
+        y: 37
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -514,10 +514,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 18
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -535,11 +535,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 39
-        y: 15
+        y: 0
         width: 32
-        height: 18
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -558,10 +558,10 @@ TextureImporter:
         serializedVersion: 2
         x: 76
         y: 0
-        width: 34
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -579,11 +579,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 116
-        y: 3
+        y: 0
         width: 32
-        height: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8b17a7029c88cc248bbb731a5e979f42
     internalID: 0
     vertices: []
     indices: 
