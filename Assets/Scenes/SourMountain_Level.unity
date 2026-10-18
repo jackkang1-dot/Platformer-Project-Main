@@ -179,7 +179,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 524557021635974116, guid: e3dcca0304281e84dbc8180e335c398b, type: 3}
       propertyPath: sceneToLoad
-      value: Boss_Level
+      value: Level 3 - Level 4 Cutscenes
       objectReference: {fileID: 0}
     - target: {fileID: 4384099498567964005, guid: e3dcca0304281e84dbc8180e335c398b, type: 3}
       propertyPath: m_LocalPosition.x
