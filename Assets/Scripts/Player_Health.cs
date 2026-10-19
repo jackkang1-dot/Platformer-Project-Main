@@ -28,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Death")]
     [Tooltip("Reload the current level after the player dies.")]
     public bool restartLevelOnDeath = true;
-    [Tooltip("Seconds to wait after dying before the level restarts. Keep it at least as long as the death animation and Death Sound, or they get cut off.")]
+    [Tooltip("Seconds to wait after dying before the level restarts. Keep it at least as long as the death animation and Death Sound, or they get cut off. Not used in levels with a YOU DIED screen (Death Screen script), which sets its own timing.")]
     public float restartDelay = 1.5f;
     [Tooltip("Name of the Trigger parameter in the player's Animator that plays the death animation (case-sensitive). Leave empty if there's no death animation.")]
     public string deathTrigger = "die";
@@ -161,7 +161,9 @@ public class PlayerHealth : MonoBehaviour
 
         if (restartLevelOnDeath)
         {
-            Invoke(nameof(RestartLevel), restartDelay);
+            // If the level has a YOU DIED screen, it shows itself and restarts the level;
+            // otherwise restart after Restart Delay
+            if (!DeathScreen.Show()) Invoke(nameof(RestartLevel), restartDelay);
         }
     }
 
