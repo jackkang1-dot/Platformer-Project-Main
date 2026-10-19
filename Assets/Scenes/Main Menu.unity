@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 135662839}
   - component: {fileID: 135662838}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DestroyDangerousSugars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 480258937}
   - component: {fileID: 480258936}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: OrPressStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
