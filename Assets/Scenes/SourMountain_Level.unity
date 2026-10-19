@@ -159818,7 +159818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e6aea9bb32647439e035bb96823464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RisingHazard
-  riseSpeed: 1
+  riseSpeed: 1.15
   maxRiseDistance: 0
   waitForPlayerToMove: 1
   startDelay: 2
