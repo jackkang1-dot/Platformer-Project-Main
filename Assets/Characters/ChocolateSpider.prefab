@@ -208,7 +208,7 @@ MonoBehaviour:
   moveSound: {fileID: 8300000, guid: f552b08da8ff8f144ae828556bad37d2, type: 3}
   moveSoundLoops: 1
   stepInterval: 0.4
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 16cb5035722be314da47f14de8ce80c4, type: 3}
   soundVolume: 0.7
   hearingDistance: 10
 --- !u!95 &-838084340058391532

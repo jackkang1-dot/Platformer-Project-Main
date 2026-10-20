@@ -179696,7 +179696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2763339651972611363, guid: caa8b53e614f3674cb350b10220b6dde, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.21
+      value: -12.97
       objectReference: {fileID: 0}
     - target: {fileID: 2763339651972611363, guid: caa8b53e614f3674cb350b10220b6dde, type: 3}
       propertyPath: m_LocalPosition.y
@@ -179740,7 +179740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7778598801717193307, guid: caa8b53e614f3674cb350b10220b6dde, type: 3}
       propertyPath: patrolRange
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778598801717193307, guid: caa8b53e614f3674cb350b10220b6dde, type: 3}
+      propertyPath: artFacesRight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

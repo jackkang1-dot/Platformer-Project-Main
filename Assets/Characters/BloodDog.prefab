@@ -205,10 +205,10 @@ MonoBehaviour:
   deathTrigger: die
   deathDuration: 0.5
   activateOnDeath: []
-  moveSound: {fileID: 0}
+  moveSound: {fileID: 8300000, guid: b5208fcf87f107044b46c99e0ed7a715, type: 3}
   moveSoundLoops: 1
   stepInterval: 0.4
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 27ccfb35298d74c40ad1855a9d14f8ea, type: 3}
   soundVolume: 0.7
   hearingDistance: 10
 --- !u!95 &5056576493219127542
