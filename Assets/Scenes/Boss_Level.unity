@@ -439,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8761871089249022025, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: artFacesRight
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5794,15 +5794,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00078125
+    x: 0
     y: 0
-    width: 0.9984375
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 4.1171875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
