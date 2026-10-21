@@ -312,7 +312,7 @@ MonoBehaviour:
   restartDelay: 1.5
   deathTrigger: die
   hurtSound: {fileID: 0}
-  deathSound: {fileID: 8300000, guid: 76f53d110957ad44cadba8e5ec8f29ef, type: 3}
+  deathSound: {fileID: 8300000, guid: fde91d0efdccd7d479435f09ce0c4141, type: 3}
   soundVolume: 1
 --- !u!114 &8397321577692802242
 MonoBehaviour:
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7aa34ebb19b6404c8d9792638258cbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerFootsteps
-  runSound: {fileID: 8300000, guid: 14b4e63872f671149a45e7f6702bff78, type: 3}
+  runSound: {fileID: 8300000, guid: 7a7121e9a77eede4587833d849e6cd56, type: 3}
   isLoopingSound: 1
   stepInterval: 0.3
   volume: 0.6
