@@ -141,7 +141,7 @@ MonoBehaviour:
   stompDamage: 1
   stompBounceForce: 8
   stompZone: 0.5
-  damageToPlayer: 1
+  damageToPlayer: 5
   deathTrigger: die
   deathDuration: 0.5
   activateOnDeath: []
