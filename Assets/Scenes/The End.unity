@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 623379140}
   - component: {fileID: 623379139}
   - component: {fileID: 623379138}
+  - component: {fileID: 623379142}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -394,6 +395,33 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &623379142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623379137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab989bd04526514ab786903d8a2426f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cutscene
+  lines:
+  - picture: {fileID: 0}
+    speaker: 
+    text: 
+  picture: {fileID: 0}
+  continueButton: {fileID: 0}
+  dialogueText: {fileID: 0}
+  speakerText: {fileID: 0}
+  dialogueBox: {fileID: 0}
+  continueHint: {fileID: 0}
+  lettersPerSecond: 40
+  typeSound: {fileID: 0}
+  typeSoundVolume: 0.5
+  fadeTime: 0.5
+  sceneToLoad: 
 --- !u!1 &1482328690
 GameObject:
   m_ObjectHideFlags: 0
