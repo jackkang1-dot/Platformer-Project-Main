@@ -74,7 +74,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -145,10 +145,10 @@ MonoBehaviour:
   deathTrigger: die
   deathDuration: 0.5
   activateOnDeath: []
-  moveSound: {fileID: 0}
+  moveSound: {fileID: 8300000, guid: a625eeac6d5fdd546849fb498c6513cf, type: 3}
   moveSoundLoops: 1
   stepInterval: 0.4
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: bc0421f7cbf0db84f88514b4cbba1899, type: 3}
   soundVolume: 0.7
   hearingDistance: 10
 --- !u!95 &2329025144751639988

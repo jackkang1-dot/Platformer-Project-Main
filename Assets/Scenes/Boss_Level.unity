@@ -383,15 +383,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7425
+      value: 3.096303
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7425
+      value: 3.096303
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.7425
+      value: 3.096303
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.x
@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -40.23
+      value: -40.434
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.z
@@ -439,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8761871089249022025, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: artFacesRight
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5571,12 +5571,24 @@ PrefabInstance:
       value: ChocolateBunny
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.847871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.847871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.847871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.80815
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -33.633
+      value: -34.072
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5609,6 +5621,10 @@ PrefabInstance:
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8761871089249022025, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: patrolRange
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5794,15 +5810,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00078125
+    x: 0
     y: 0
-    width: 0.9984375
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8960,12 +8976,24 @@ PrefabInstance:
       value: ChocolateBunny (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.2773468
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.2773468
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.2773468
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.072055
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -62.2
+      value: -62.359
       objectReference: {fileID: 0}
     - target: {fileID: 7518094094429480940, guid: 4614f1c45506f9841a0322dd314a9663, type: 3}
       propertyPath: m_LocalPosition.z
